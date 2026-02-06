@@ -1,0 +1,28 @@
+newmtl Bundle303magnabot1Mtl
+Material Color
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.0627451 0.0627451 0.0627451 
+
+d 1
+
+Ns 0
+
+map_Ka Bundle303magnabot1_diff.png
+map_Kd Bundle303magnabot1_diff.png
+map_d Bundle303magnabot1_diff.png
+
+newmtl Bundle303magnabot5Mtl
+Material Color
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.0627451 0.0627451 0.0627451 
+
+d 1
+
+Ns 0
+
+map_Ka Bundle303magnabot5_diff.png
+map_Kd Bundle303magnabot5_diff.png
+map_d Bundle303magnabot5_diff.png
+

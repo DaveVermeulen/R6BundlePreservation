@@ -1,0 +1,28 @@
+newmtl Bundle295skeleton1Mtl
+Material Color
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.0627451 0.0627451 0.0627451 
+
+d 1
+
+Ns 0
+
+map_Ka Bundle295skeleton1_diff.png
+map_Kd Bundle295skeleton1_diff.png
+map_d Bundle295skeleton1_diff.png
+
+newmtl Bundle295skeleton2Mtl
+Material Color
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.0627451 0.0627451 0.0627451 
+
+d 1
+
+Ns 0
+
+map_Ka Bundle295skeleton2_diff.png
+map_Kd Bundle295skeleton2_diff.png
+map_d Bundle295skeleton2_diff.png
+

@@ -1,0 +1,28 @@
+newmtl Bundle279mrrobot1Mtl
+Material Color
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.0627451 0.0627451 0.0627451 
+
+d 1
+
+Ns 0
+
+map_Ka Bundle279mrrobot1_diff.png
+map_Kd Bundle279mrrobot1_diff.png
+map_d Bundle279mrrobot1_diff.png
+
+newmtl Bundle279mrrobot4Mtl
+Material Color
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.0627451 0.0627451 0.0627451 
+
+d 1
+
+Ns 0
+
+map_Ka Bundle279mrrobot4_diff.png
+map_Kd Bundle279mrrobot4_diff.png
+map_d Bundle279mrrobot4_diff.png
+

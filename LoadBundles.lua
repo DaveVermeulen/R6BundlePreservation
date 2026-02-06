@@ -11,13 +11,12 @@ local bundleRange = 320 -- from 0 to range --320 by default
 local waitTime = 3
 
 -- Animation Packs and incompatible bundles.
-local IgnoreBundles = {32,33,34,39,43,48,55,56,61,62,63,68,75,79,80,81,82,83,91,92,317}
+local IgnoreBundles = {32,33,34,39,43,48,55,56,61,62,63,68,75,79,80,81,82,83,91,92,315,317}
 local ExtraBundles = {438,410,854,382,419,427,857,381,426,855}
 
 local Folder = workspace:FindFirstChild("Bundles") or Instance.new("Folder")
 Folder.Name = "Bundles"
 Folder.Parent = workspace
-Folder:ClearAllChildren()
 
 local function parameterize(str)
     return str
@@ -257,28 +256,6 @@ function HandleBundle(id)
 			bundleDetails.CharacterMeshes = characterMeshes
 			bundleDetails.Accessories = accessories
 			table.insert(bundleData, bundleDetails)
-
-			print("Found", #characterMeshes, "character meshes")
-			print("Found", #accessories, "accessories")
-			
-			---- MOVE TO 2ND PLUGIN SCRIPT
-			---- Set selection
-			--Selection:Set({ rig })
-			---- Export using the plugin object directly
-			--local exportSuccess, exportError = pcall(function()
-			--	PluginManager():ExportSelection(
-			--		"C:/Users/bundle_"
-			--			.. bundleDetails.Id
-			--			.. "_"
-			--			.. parameterize(bundleDetails.Name)
-			--			.. ".obj"
-			--	)
-			--end)
-			--if exportSuccess then
-			--	print("Successfully exported bundle")
-			--else
-			--	warn("Failed to export:", exportError)
-			--end
 		end
 	else
 		warn("Failed to load bundle", id, ":", bundleDetails)
@@ -286,6 +263,7 @@ function HandleBundle(id)
 end
 
 pluginButton.Click:Connect(function()
+	Folder:ClearAllChildren()
 	for i = 1, bundleRange do
 		if table.find(IgnoreBundles, i) then
 			print("Skipping bundle", i)
