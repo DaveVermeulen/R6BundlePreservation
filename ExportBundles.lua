@@ -6,7 +6,7 @@ local Folder = workspace:FindFirstChild("Bundles") or Instance.new("Folder")
 
 pluginButton.Click:Connect(function()
 	for _, bundle in pairs(Folder:GetChildren()) do
-		-- MOVE TO 2ND PLUGIN SCRIPT
+		if bundle:IsA("ModuleScript") then continue end
 		-- Set selection
 		Selection:Set({ bundle })
 		-- Export using the plugin object directly
@@ -22,7 +22,8 @@ pluginButton.Click:Connect(function()
 		else
 			warn("Failed to export:", exportError)
 		end
-	end)
+		task.wait(1)
+	end
 end)
 
 	
