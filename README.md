@@ -14,3 +14,9 @@ This will also create modulescripts containing a json of all the related data to
 If you want to export to OBJ from studio:
 Move the Bundles folder to ServerStorage and run the python script (python and lua script need the same export path)
 Run the Export Bundles script, which will prompt you to save to obj every couple seconds to the export path.
+
+TODO:
+
+Download all textures and meshes of each individual part that makes up a bundle.
+
+Update json to include accessory special mesh size.
