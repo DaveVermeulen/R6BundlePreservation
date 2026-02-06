@@ -136,7 +136,7 @@ class BundleOrganizer(FileSystemEventHandler):
 
 def main():
     # Set your watch directory here
-    watch_directory = r"D:\Projects\Roblox\RobloxAssetPreservation\Bundles\roblox_obj"
+    watch_directory = r"C:/Users/"
     
     print("="*60)
     print("ROBLOX BUNDLE ORGANIZER - RUNNING")

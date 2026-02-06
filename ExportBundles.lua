@@ -20,7 +20,7 @@ pluginButton.Click:Connect(function()
 		-- Export using the plugin object directly
 		local exportSuccess, exportError = pcall(function()
 			PluginManager():ExportSelection(
-				"D:/Projects/Roblox/RobloxAssetPreservation/Bundles/roblox_obj/"
+				"C:/Users/"
 					.. bundle.Name
 					.. ".obj"
 			)
