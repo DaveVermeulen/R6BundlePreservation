@@ -1,0 +1,20 @@
+newmtl FootballPlayer1Mtl
+Material Color
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.0627451 0.0627451 0.0627451 
+
+d 1
+
+Ns 0
+
+newmtl FootballPlayer6Mtl
+Material Color
+Ka 0.464741 0.267358 0.190463
+Kd 0.464741 0.267358 0.190463
+Ks 0.0291602 0.0167754 0.0119506 
+
+d 1
+
+Ns 0
+

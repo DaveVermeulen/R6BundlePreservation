@@ -1,0 +1,20 @@
+newmtl Gunslinger1Mtl
+Material Color
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.0627451 0.0627451 0.0627451 
+
+d 1
+
+Ns 0
+
+newmtl Gunslinger6Mtl
+Material Color
+Ka 0.190463 0.0891935 0.0581872
+Kd 0.190463 0.0891935 0.0581872
+Ks 0.0119506 0.00559646 0.00365096 
+
+d 1
+
+Ns 0
+

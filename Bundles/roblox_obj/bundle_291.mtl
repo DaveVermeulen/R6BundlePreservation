@@ -1,0 +1,20 @@
+newmtl Zombie1Mtl
+Material Color
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.0627451 0.0627451 0.0627451 
+
+d 1
+
+Ns 0
+
+newmtl Zombie6Mtl
+Material Color
+Ka 0.144972 0.263175 0.154152
+Kd 0.144972 0.263175 0.154152
+Ks 0.00909629 0.0165129 0.0096723 
+
+d 1
+
+Ns 0
+

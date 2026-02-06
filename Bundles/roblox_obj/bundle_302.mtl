@@ -1,0 +1,20 @@
+newmtl ThaneOfTheFen1Mtl
+Material Color
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.0627451 0.0627451 0.0627451 
+
+d 1
+
+Ns 0
+
+newmtl ThaneOfTheFen6Mtl
+Material Color
+Ka 0.280124 0.163641 0.108711
+Kd 0.280124 0.163641 0.108711
+Ks 0.0175764 0.0102676 0.00682109 
+
+d 1
+
+Ns 0
+

@@ -1,0 +1,20 @@
+newmtl MrRoboto1Mtl
+Material Color
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.0627451 0.0627451 0.0627451 
+
+d 1
+
+Ns 0
+
+newmtl MrRoboto6Mtl
+Material Color
+Ka 0.358654 0.409826 0.493616
+Kd 0.358654 0.409826 0.493616
+Ks 0.0225038 0.0257146 0.030972 
+
+d 1
+
+Ns 0
+

@@ -1,0 +1,20 @@
+newmtl Robloxian201Mtl
+Material Color
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.0627451 0.0627451 0.0627451 
+
+d 1
+
+Ns 0
+
+newmtl Robloxian206Mtl
+Material Color
+Ka 0.948965 0.948965 0.948965
+Kd 0.948965 0.948965 0.948965
+Ks 0.0595429 0.0595429 0.0595429 
+
+d 1
+
+Ns 0
+

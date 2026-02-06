@@ -1,0 +1,20 @@
+newmtl GingerbreadMan1Mtl
+Material Color
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.0627451 0.0627451 0.0627451 
+
+d 1
+
+Ns 0
+
+newmtl GingerbreadMan6Mtl
+Material Color
+Ka 0.517401 0.21952 0.0717615
+Kd 0.517401 0.21952 0.0717615
+Ks 0.0324644 0.0137738 0.00450268 
+
+d 1
+
+Ns 0
+

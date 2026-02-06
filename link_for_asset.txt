@@ -1,0 +1,4 @@
+https://assetdelivery.roblox.com/v1/asset/?id=
+
+to skip
+61,62,92,93,317

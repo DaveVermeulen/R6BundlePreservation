@@ -1,0 +1,20 @@
+newmtl RobloxBoy1Mtl
+Material Color
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.0627451 0.0627451 0.0627451 
+
+d 1
+
+Ns 0
+
+newmtl RobloxBoy6Mtl
+Material Color
+Ka 0.65237 0.436813 0.334458
+Kd 0.65237 0.436813 0.334458
+Ks 0.040933 0.0274079 0.0209856 
+
+d 1
+
+Ns 0
+

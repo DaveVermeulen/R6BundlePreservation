@@ -1,0 +1,20 @@
+newmtl Spaceman1Mtl
+Material Color
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.0627451 0.0627451 0.0627451 
+
+d 1
+
+Ns 0
+
+newmtl Spaceman6Mtl
+Material Color
+Ka 0.91575 0.875138 0.7593
+Kd 0.91575 0.875138 0.7593
+Ks 0.0574588 0.0549106 0.0476423 
+
+d 1
+
+Ns 0
+
