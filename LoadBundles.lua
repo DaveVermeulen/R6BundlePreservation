@@ -19,10 +19,10 @@ Folder.Name = "Bundles"
 Folder.Parent = workspace
 
 local function parameterize(str)
-    return str
-        :lower()
-        :gsub("[^%w%s]", "")  -- remove punctuation
-        :gsub("%s+", "_")     -- spaces -> underscore
+	return str
+		:lower()
+		:gsub("[^%w%s]", "")  -- remove punctuation
+		:gsub("%s+", "_")     -- spaces -> underscore
 end
 
 function GetCharacterMeshData(rig)
@@ -51,12 +51,14 @@ function GetAccessoryData(rig)
 			if handle then
 				local meshId = ""
 				local textureId = ""
+				local meshScale = ""
 
 				-- Check for SpecialMesh
 				local specialMesh = handle:FindFirstChildOfClass("SpecialMesh")
 				if specialMesh then
 					meshId = specialMesh.MeshId
 					textureId = specialMesh.TextureId
+					meshScale = tostring(specialMesh.Scale)
 				end
 
 				-- Check for MeshPart
@@ -64,6 +66,7 @@ function GetAccessoryData(rig)
 				if meshPart then
 					meshId = meshPart.MeshId
 					textureId = meshPart.TextureID
+					meshScale = tostring(meshPart.Scale)
 				end
 
 				table.insert(accessoryData, {
@@ -269,11 +272,11 @@ pluginButton.Click:Connect(function()
 			print("Skipping bundle", i)
 			continue
 		end
-		
+
 		HandleBundle(i)
 		task.wait(waitTime)
 	end
-	
+
 	for _, bundleId in ExtraBundles do
 		--Handles specific bundles outside of the default 0-320 range, these are hand picked from the catalog
 		HandleBundle(bundleId)
