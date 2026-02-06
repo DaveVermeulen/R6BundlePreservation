@@ -18,5 +18,5 @@ Run the Export Bundles script, which will prompt you to save to obj every couple
 TODO:
 
 Download all textures and meshes of each individual part that makes up a bundle.
-
+Have a tool combine each body part and accessory into a properly merged mesh, with functioning UVs and textures (not merged texture atlas like Studio Export)
 Update json to include accessory special mesh size.
