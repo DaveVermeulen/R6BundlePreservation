@@ -2,18 +2,29 @@ local AssetService = game:GetService("AssetService")
 local HttpService = game:GetService("HttpService")
 local Players = game:GetService("Players")
 local Selection = game:GetService("Selection")
-local toolbar = plugin:CreateToolbar("LoadAndExportBundles")
-local pluginButton = toolbar:CreateButton("LoadAndExportBundles", "Creates and exports OBJ of bundles", "", "")
+local toolbar = plugin:CreateToolbar("LoadBundles")
+local pluginButton = toolbar:CreateButton("LoadBundles", "Loads bundles into scene, with json data", "", "")
 pluginButton.ClickableWhenViewportHidden = true
 local bundleData = {}
 local bundlePartData = {}
 local bundleRange = 320 -- from 0 to range --320 by default
-local waitTime = 1
+local waitTime = 3
+
+-- Animation Packs and incompatible bundles.
+local IgnoreBundles = {32,33,34,39,43,48,55,56,61,62,63,68,75,79,80,81,82,83,91,92,317}
+local ExtraBundles = {438,410,854,382,419,427,857,381,426,855}
 
 local Folder = workspace:FindFirstChild("Bundles") or Instance.new("Folder")
 Folder.Name = "Bundles"
 Folder.Parent = workspace
 Folder:ClearAllChildren()
+
+local function parameterize(str)
+    return str
+        :lower()
+        :gsub("[^%w%s]", "")  -- remove punctuation
+        :gsub("%s+", "_")     -- spaces -> underscore
+end
 
 function GetCharacterMeshData(rig)
 	local meshData = {}
@@ -36,7 +47,7 @@ function GetAccessoryData(rig)
 	local accessoryData = {}
 
 	for _, child in pairs(rig:GetChildren()) do
-		if child:IsA("Accessory") then
+		if child:IsA("Accessory") then			
 			local handle = child:FindFirstChild("Handle")
 			if handle then
 				local meshId = ""
@@ -61,6 +72,9 @@ function GetAccessoryData(rig)
 					AccessoryType = child.AccessoryType.Name,
 					MeshId = meshId,
 					TextureId = textureId,
+					AttachmentPointPos = tostring(child.AttachmentPoint.Position),
+					AttachmentPointRot = tostring(child.AttachmentPoint.Rotation),
+					RigHatAttachment = tostring(rig.Head.HatAttachment.Position)
 				})
 			end
 		end
@@ -71,6 +85,7 @@ end
 
 function LoadBundle(Bundle, rigType)
 	local OutfitID
+	--export position for OBJ import in blender
 	local BasePosRot = CFrame.new(0, 4.5, 0) * CFrame.Angles(0, math.rad(180), 0)
 	-- Default to R6 if not specified
 	rigType = rigType or Enum.HumanoidRigType.R6
@@ -122,7 +137,7 @@ function LoadBundle(Bundle, rigType)
 	Rig:PivotTo(BasePosRot)
 
 	Rig.Parent = workspace.Bundles
-	Rig.Name = Bundle.Name or "Unknown"
+	Rig.Name = string.format("bundle_%03d_%s", Bundle.Id, parameterize(Bundle.Name))
 	print("Successfully loaded", rigType.Name, "rig for bundle:", Bundle.Name or "Unknown")
 	return Rig
 end
@@ -222,51 +237,69 @@ function SaveDataInChunks(data, baseName, maxChars)
 	print("Finished saving", baseName, "in", #chunks, "chunks")
 end
 
+function HandleBundle(id)
+	local rig
+	local success, bundleDetails = pcall(function()
+		return AssetService:GetBundleDetailsAsync(id)
+	end)
+	if success and bundleDetails then
+		print("Successfully loaded bundle", id)
+		rig = LoadBundle(bundleDetails, Enum.HumanoidRigType.R6)
+		if rig then
+			-- Wait a moment for the rig to fully load
+			task.wait(0.5)
+
+			-- Extract CharacterMesh and Accessory data
+			local characterMeshes = GetCharacterMeshData(rig)
+			local accessories = GetAccessoryData(rig)
+
+			-- Add the extracted data to bundle details
+			bundleDetails.CharacterMeshes = characterMeshes
+			bundleDetails.Accessories = accessories
+			table.insert(bundleData, bundleDetails)
+
+			print("Found", #characterMeshes, "character meshes")
+			print("Found", #accessories, "accessories")
+			
+			---- MOVE TO 2ND PLUGIN SCRIPT
+			---- Set selection
+			--Selection:Set({ rig })
+			---- Export using the plugin object directly
+			--local exportSuccess, exportError = pcall(function()
+			--	PluginManager():ExportSelection(
+			--		"C:/Users/bundle_"
+			--			.. bundleDetails.Id
+			--			.. "_"
+			--			.. parameterize(bundleDetails.Name)
+			--			.. ".obj"
+			--	)
+			--end)
+			--if exportSuccess then
+			--	print("Successfully exported bundle")
+			--else
+			--	warn("Failed to export:", exportError)
+			--end
+		end
+	else
+		warn("Failed to load bundle", id, ":", bundleDetails)
+	end
+end
+
 pluginButton.Click:Connect(function()
 	for i = 1, bundleRange do
-		local rig
-		local success, bundleDetails = pcall(function()
-			return AssetService:GetBundleDetailsAsync(i)
-		end)
-		if success and bundleDetails then
-			print("Successfully loaded bundle", i)
-			rig = LoadBundle(bundleDetails, Enum.HumanoidRigType.R6)
-			if rig then
-				-- Wait a moment for the rig to fully load
-				task.wait(0.5)
-
-				-- Extract CharacterMesh and Accessory data
-				local characterMeshes = GetCharacterMeshData(rig)
-				local accessories = GetAccessoryData(rig)
-
-				-- Add the extracted data to bundle details
-				bundleDetails.CharacterMeshes = characterMeshes
-				bundleDetails.Accessories = accessories
-				table.insert(bundleData, bundleDetails)
-
-				print("Found", #characterMeshes, "character meshes")
-				print("Found", #accessories, "accessories")
-
-				-- Set selection
-				Selection:Set({ rig })
-				-- Export using the plugin object directly
-				local exportSuccess, exportError = pcall(function()
-					PluginManager():ExportSelection(
-						"C:/Users/bundle_"
-							.. bundleDetails.Id
-							.. ".obj"
-					)
-				end)
-				if exportSuccess then
-					print("Successfully exported bundle")
-				else
-					warn("Failed to export:", exportError)
-				end
-			end
-		else
-			warn("Failed to load bundle", i, ":", bundleDetails)
+		if table.find(IgnoreBundles, i) then
+			print("Skipping bundle", i)
+			continue
 		end
-		task.wait(1)
+		
+		HandleBundle(i)
+		task.wait(waitTime)
+	end
+	
+	for _, bundleId in ExtraBundles do
+		--Handles specific bundles outside of the default 0-320 range, these are hand picked from the catalog
+		HandleBundle(bundleId)
+		task.wait(waitTime)
 	end
 
 	-- Save data in chunks
