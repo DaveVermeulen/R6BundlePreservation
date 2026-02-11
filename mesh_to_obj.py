@@ -844,7 +844,7 @@ def merge_by_distance(vertices: List[float], normals: List[float], uvs: List[flo
                      faces: List[int], distance: float = 0.0001) -> Tuple[List[float], List[float], List[float], List[int]]:
     """
     Merge vertices that are within a certain distance of each other.
-    Similar to Blender's Merge by Distance feature.
+    Uses spatial hashing for O(n) performance, just like Blender's Merge by Distance.
     """
     num_verts = len(vertices) // 3
     
@@ -853,11 +853,36 @@ def merge_by_distance(vertices: List[float], normals: List[float], uvs: List[flo
     
     print(f"Merging vertices within distance {distance}...")
     
+    # Spatial hash grid for fast neighbor lookup
+    grid_size = distance * 1.5  # Slightly larger than merge distance
+    if grid_size == 0:
+        grid_size = 0.001
+    
+    spatial_hash = {}  # (grid_x, grid_y, grid_z) -> [vertex_indices]
+    
+    def get_grid_key(x, y, z):
+        """Convert position to grid coordinates"""
+        return (
+            int(x / grid_size),
+            int(y / grid_size),
+            int(z / grid_size)
+        )
+    
+    def get_neighbor_cells(gx, gy, gz):
+        """Get all 27 neighboring grid cells (including center)"""
+        cells = []
+        for dx in [-1, 0, 1]:
+            for dy in [-1, 0, 1]:
+                for dz in [-1, 0, 1]:
+                    cells.append((gx + dx, gy + dy, gz + dz))
+        return cells
+    
     # Build vertex mapping
     vertex_map = {}  # old_index -> new_index
     new_vertices = []
     new_normals = []
     new_uvs = []
+    new_vertex_positions = []  # For quick lookup
     
     distance_sq = distance * distance
     
@@ -865,46 +890,61 @@ def merge_by_distance(vertices: List[float], normals: List[float], uvs: List[flo
         vi = i * 3
         ui = i * 2
         
-        v_pos = (vertices[vi], vertices[vi + 1], vertices[vi + 2])
-        v_normal = (normals[vi], normals[vi + 1], normals[vi + 2])
-        v_uv = (uvs[ui], uvs[ui + 1])
+        x = vertices[vi]
+        y = vertices[vi + 1]
+        z = vertices[vi + 2]
         
-        # Check if this vertex is close to any existing vertex
+        grid_key = get_grid_key(x, y, z)
+        
+        # Check neighboring cells for close vertices
         found = False
-        for new_idx in range(len(new_vertices) // 3):
-            nvi = new_idx * 3
-            nui = new_idx * 2
+        for neighbor_key in get_neighbor_cells(*grid_key):
+            if neighbor_key not in spatial_hash:
+                continue
             
-            # Calculate distance
-            dx = vertices[vi] - new_vertices[nvi]
-            dy = vertices[vi + 1] - new_vertices[nvi + 1]
-            dz = vertices[vi + 2] - new_vertices[nvi + 2]
-            dist_sq = dx*dx + dy*dy + dz*dz
-            
-            if dist_sq <= distance_sq:
-                # Also check if normals and UVs are similar
-                dn_x = normals[vi] - new_normals[nvi]
-                dn_y = normals[vi + 1] - new_normals[nvi + 1]
-                dn_z = normals[vi + 2] - new_normals[nvi + 2]
-                normal_diff = abs(dn_x) + abs(dn_y) + abs(dn_z)
+            for candidate_idx in spatial_hash[neighbor_key]:
+                # Calculate squared distance
+                cx, cy, cz = new_vertex_positions[candidate_idx]
+                dx = x - cx
+                dy = y - cy
+                dz = z - cz
+                dist_sq = dx*dx + dy*dy + dz*dz
                 
-                du = uvs[ui] - new_uvs[nui]
-                dv = uvs[ui + 1] - new_uvs[nui + 1]
-                uv_diff = abs(du) + abs(dv)
-                
-                # If position, normal and UV are all similar, merge them
-                if normal_diff < 0.01 and uv_diff < 0.01:
-                    vertex_map[i] = new_idx
+                if dist_sq <= distance_sq:
+                    # Found a close vertex - merge with it
+                    vertex_map[i] = candidate_idx
+                    
+                    # Average the normals and UVs for better quality
+                    nvi = candidate_idx * 3
+                    nui = candidate_idx * 2
+                    
+                    new_normals[nvi] = (new_normals[nvi] + normals[vi]) / 2
+                    new_normals[nvi + 1] = (new_normals[nvi + 1] + normals[vi + 1]) / 2
+                    new_normals[nvi + 2] = (new_normals[nvi + 2] + normals[vi + 2]) / 2
+                    
+                    new_uvs[nui] = (new_uvs[nui] + uvs[ui]) / 2
+                    new_uvs[nui + 1] = (new_uvs[nui + 1] + uvs[ui + 1]) / 2
+                    
                     found = True
                     break
+            
+            if found:
+                break
         
         if not found:
-            # Add as new vertex
+            # Add as new unique vertex
             new_idx = len(new_vertices) // 3
             vertex_map[i] = new_idx
-            new_vertices.extend(v_pos)
-            new_normals.extend(v_normal)
-            new_uvs.extend(v_uv)
+            
+            new_vertices.extend([x, y, z])
+            new_normals.extend([normals[vi], normals[vi + 1], normals[vi + 2]])
+            new_uvs.extend([uvs[ui], uvs[ui + 1]])
+            new_vertex_positions.append((x, y, z))
+            
+            # Add to spatial hash
+            if grid_key not in spatial_hash:
+                spatial_hash[grid_key] = []
+            spatial_hash[grid_key].append(new_idx)
     
     # Remap faces
     new_faces = []
@@ -1035,7 +1075,7 @@ Examples:
     parser.add_argument('input', help='Input .mesh file')
     parser.add_argument('-o', '--output', help='Output .obj file (default: same as input with .obj extension)')
     parser.add_argument('-m', '--merge', type=float, default=0.0, metavar='DISTANCE',
-                       help='Merge vertices within this distance (default: 0.0 = disabled), Still currently WIP')
+                       help='Merge vertices within this distance (default: 0.0 = disabled) recommended distance: 0.001')
     parser.add_argument('-t', '--texture', help='Texture image path to include in material')
     
     args = parser.parse_args()
