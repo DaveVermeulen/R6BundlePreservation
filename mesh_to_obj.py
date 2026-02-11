@@ -840,28 +840,35 @@ class RobloxMeshParser:
             raise ValueError(f"Unknown LODS version {version}")
 
 
-def merge_by_distance(vertices: List[float], normals: List[float], uvs: List[float], 
-                     faces: List[int], distance: float = 0.0001) -> Tuple[List[float], List[float], List[float], List[int]]:
+def merge_positions_only(vertices: List[float], normals: List[float], uvs: List[float], 
+                         faces: List[int], distance: float = 0.0001) -> dict:
     """
-    Merge vertices that are within a certain distance of each other.
-    Uses spatial hashing for O(n) performance, just like Blender's Merge by Distance.
+    Merge vertices by POSITION only, keeping normals and UVs separate.
+    Returns proper OBJ-style data with separate indices for position/normal/uv.
+    
+    This preserves hard edges and UV seams while reducing position count.
     """
     num_verts = len(vertices) // 3
     
     if distance <= 0:
-        return vertices, normals, uvs, faces
+        # No merging - return as-is with unified indices
+        return {
+            'positions': vertices,
+            'normals': normals,
+            'uvs': uvs,
+            'faces': [(i, i, i) for i in faces]  # (pos_idx, uv_idx, normal_idx)
+        }
     
-    print(f"Merging vertices within distance {distance}...")
+    print(f"Merging positions within distance {distance} (preserving normals/UVs)...")
     
     # Spatial hash grid for fast neighbor lookup
-    grid_size = distance * 1.5  # Slightly larger than merge distance
+    grid_size = distance * 1.5
     if grid_size == 0:
         grid_size = 0.001
     
-    spatial_hash = {}  # (grid_x, grid_y, grid_z) -> [vertex_indices]
+    spatial_hash = {}
     
     def get_grid_key(x, y, z):
-        """Convert position to grid coordinates"""
         return (
             int(x / grid_size),
             int(y / grid_size),
@@ -869,7 +876,6 @@ def merge_by_distance(vertices: List[float], normals: List[float], uvs: List[flo
         )
     
     def get_neighbor_cells(gx, gy, gz):
-        """Get all 27 neighboring grid cells (including center)"""
         cells = []
         for dx in [-1, 0, 1]:
             for dy in [-1, 0, 1]:
@@ -877,18 +883,18 @@ def merge_by_distance(vertices: List[float], normals: List[float], uvs: List[flo
                     cells.append((gx + dx, gy + dy, gz + dz))
         return cells
     
-    # Build vertex mapping
-    vertex_map = {}  # old_index -> new_index
-    new_vertices = []
-    new_normals = []
-    new_uvs = []
-    new_vertex_positions = []  # For quick lookup
+    # Map old vertex index to new position index
+    vertex_to_position = {}
+    
+    # Unique positions
+    unique_positions = []
+    position_coords = []  # For comparison
     
     distance_sq = distance * distance
     
+    # Process each vertex
     for i in range(num_verts):
         vi = i * 3
-        ui = i * 2
         
         x = vertices[vi]
         y = vertices[vi + 1]
@@ -896,64 +902,62 @@ def merge_by_distance(vertices: List[float], normals: List[float], uvs: List[flo
         
         grid_key = get_grid_key(x, y, z)
         
-        # Check neighboring cells for close vertices
-        found = False
+        # Check neighboring cells for close positions
+        found_pos_idx = None
         for neighbor_key in get_neighbor_cells(*grid_key):
             if neighbor_key not in spatial_hash:
                 continue
             
             for candidate_idx in spatial_hash[neighbor_key]:
-                # Calculate squared distance
-                cx, cy, cz = new_vertex_positions[candidate_idx]
+                cx, cy, cz = position_coords[candidate_idx]
                 dx = x - cx
                 dy = y - cy
                 dz = z - cz
                 dist_sq = dx*dx + dy*dy + dz*dz
                 
                 if dist_sq <= distance_sq:
-                    # Found a close vertex - merge with it
-                    vertex_map[i] = candidate_idx
-                    
-                    # Average the normals and UVs for better quality
-                    nvi = candidate_idx * 3
-                    nui = candidate_idx * 2
-                    
-                    new_normals[nvi] = (new_normals[nvi] + normals[vi]) / 2
-                    new_normals[nvi + 1] = (new_normals[nvi + 1] + normals[vi + 1]) / 2
-                    new_normals[nvi + 2] = (new_normals[nvi + 2] + normals[vi + 2]) / 2
-                    
-                    new_uvs[nui] = (new_uvs[nui] + uvs[ui]) / 2
-                    new_uvs[nui + 1] = (new_uvs[nui + 1] + uvs[ui + 1]) / 2
-                    
-                    found = True
+                    # Found matching position!
+                    found_pos_idx = candidate_idx
                     break
             
-            if found:
+            if found_pos_idx is not None:
                 break
         
-        if not found:
-            # Add as new unique vertex
-            new_idx = len(new_vertices) // 3
-            vertex_map[i] = new_idx
-            
-            new_vertices.extend([x, y, z])
-            new_normals.extend([normals[vi], normals[vi + 1], normals[vi + 2]])
-            new_uvs.extend([uvs[ui], uvs[ui + 1]])
-            new_vertex_positions.append((x, y, z))
+        if found_pos_idx is None:
+            # New unique position
+            pos_idx = len(unique_positions) // 3
+            unique_positions.extend([x, y, z])
+            position_coords.append((x, y, z))
+            vertex_to_position[i] = pos_idx
             
             # Add to spatial hash
             if grid_key not in spatial_hash:
                 spatial_hash[grid_key] = []
-            spatial_hash[grid_key].append(new_idx)
+            spatial_hash[grid_key].append(pos_idx)
+        else:
+            # Reuse existing position
+            vertex_to_position[i] = found_pos_idx
     
-    # Remap faces
+    # Keep ALL normals and UVs (they stay at their original indices)
+    # Faces now need to map: vertex_idx -> (position_idx, uv_idx, normal_idx)
+    
     new_faces = []
-    for face_idx in faces:
-        new_faces.append(vertex_map[face_idx])
+    for face_vert_idx in faces:
+        pos_idx = vertex_to_position[face_vert_idx]
+        uv_idx = face_vert_idx  # UVs keep their original index
+        normal_idx = face_vert_idx  # Normals keep their original index
+        new_faces.append((pos_idx, uv_idx, normal_idx))
     
-    print(f"  Merged {num_verts} vertices down to {len(new_vertices) // 3}")
+    print(f"  Merged {num_verts} positions down to {len(unique_positions) // 3}")
+    print(f"  Kept all {len(normals) // 3} normals and {len(uvs) // 2} UVs")
     
-    return new_vertices, new_normals, new_uvs, new_faces
+    return {
+        'positions': unique_positions,
+        'normals': normals,
+        'uvs': uvs,
+        'faces': new_faces  # List of (pos_idx, uv_idx, normal_idx) tuples
+    }
+
 
 
 def mesh_to_obj(mesh: dict, output_path: str, texture_path: Optional[str] = None, 
@@ -970,11 +974,17 @@ def mesh_to_obj(mesh: dict, output_path: str, texture_path: Optional[str] = None
     face_end = lods[1] * 3
     lod_faces = faces[face_start:face_end]
     
-    # Apply merge by distance if requested
+    # Apply merge by position if requested
     if merge_distance > 0:
-        vertices, normals, uvs, lod_faces = merge_by_distance(
-            vertices, normals, uvs, lod_faces, merge_distance
-        )
+        merged = merge_positions_only(vertices, normals, uvs, lod_faces, merge_distance)
+        positions = merged['positions']
+        normals = merged['normals']
+        uvs = merged['uvs']
+        face_indices = merged['faces']  # List of (pos_idx, uv_idx, normal_idx) tuples
+    else:
+        # No merging - use unified indices
+        positions = vertices
+        face_indices = [(i, i, i) for i in lod_faces]
     
     lines = []
     
@@ -986,19 +996,19 @@ def mesh_to_obj(mesh: dict, output_path: str, texture_path: Optional[str] = None
     lines.append("o Mesh")
     lines.append("")
     
-    # Write vertices
-    for i in range(0, len(vertices), 3):
-        lines.append(f"v {vertices[i]} {vertices[i+1]} {vertices[i+2]}")
+    # Write vertex positions
+    for i in range(0, len(positions), 3):
+        lines.append(f"v {positions[i]} {positions[i+1]} {positions[i+2]}")
     
     lines.append("")
     
-    # Write normals
+    # Write vertex normals
     for i in range(0, len(normals), 3):
         lines.append(f"vn {normals[i]} {normals[i+1]} {normals[i+2]}")
     
     lines.append("")
     
-    # Write UVs
+    # Write texture coordinates
     for i in range(0, len(uvs), 2):
         lines.append(f"vt {uvs[i]} {uvs[i+1]}")
     
@@ -1009,12 +1019,18 @@ def mesh_to_obj(mesh: dict, output_path: str, texture_path: Optional[str] = None
         lines.append("usemtl Material")
         lines.append("")
     
-    # Write faces
-    for i in range(0, len(lod_faces), 3):
-        a = lod_faces[i] + 1
-        b = lod_faces[i + 1] + 1
-        c = lod_faces[i + 2] + 1
-        lines.append(f"f {a}/{a}/{a} {b}/{b}/{b} {c}/{c}/{c}")
+    # Write faces with proper OBJ format: f pos/uv/normal
+    for i in range(0, len(face_indices), 3):
+        v1_pos, v1_uv, v1_norm = face_indices[i]
+        v2_pos, v2_uv, v2_norm = face_indices[i + 1]
+        v3_pos, v3_uv, v3_norm = face_indices[i + 2]
+        
+        # OBJ uses 1-based indexing
+        lines.append(
+            f"f {v1_pos+1}/{v1_uv+1}/{v1_norm+1} "
+            f"{v2_pos+1}/{v2_uv+1}/{v2_norm+1} "
+            f"{v3_pos+1}/{v3_uv+1}/{v3_norm+1}"
+        )
     
     # Write OBJ file
     with open(output_path, 'w') as f:
@@ -1026,8 +1042,10 @@ def mesh_to_obj(mesh: dict, output_path: str, texture_path: Optional[str] = None
         create_mtl_file(mtl_path, texture_path)
     
     print(f"Converted mesh to {output_path}")
-    print(f"  Vertices: {len(vertices) // 3}")
-    print(f"  Faces: {len(lod_faces) // 3}")
+    print(f"  Positions: {len(positions) // 3}")
+    print(f"  Normals: {len(normals) // 3}")
+    print(f"  UVs: {len(uvs) // 2}")
+    print(f"  Faces: {len(face_indices) // 3}")
     if texture_path:
         print(f"  Texture: {texture_path}")
 
@@ -1075,7 +1093,7 @@ Examples:
     parser.add_argument('input', help='Input .mesh file')
     parser.add_argument('-o', '--output', help='Output .obj file (default: same as input with .obj extension)')
     parser.add_argument('-m', '--merge', type=float, default=0.0, metavar='DISTANCE',
-                       help='Merge vertices within this distance (default: 0.0 = disabled) recommended distance: 0.001')
+                       help='Merge vertex positions within this distance while preserving normals/UVs (default: 0.0 = disabled)')
     parser.add_argument('-t', '--texture', help='Texture image path to include in material')
     
     args = parser.parse_args()
