@@ -1,4 +1,5 @@
 import os
+import sys
 import time
 import shutil
 import re
@@ -135,8 +136,10 @@ class BundleOrganizer(FileSystemEventHandler):
         return textures
 
 def main():
-    # Set your watch directory here
-    watch_directory = r"C:/Users/"
+    if len(sys.argv) < 2:
+        print("Usage: py MoveExportsToFolders.py \"path\"")
+        sys.exit(1)
+    watch_directory = sys.argv[1]
     
     print("="*60)
     print("ROBLOX BUNDLE ORGANIZER - RUNNING")
