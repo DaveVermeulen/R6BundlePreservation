@@ -1,0 +1,3091 @@
+[
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2010_knight",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 28256487,
+                "BaseTextureId": 0,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 28256442,
+                "BaseTextureId": 0,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 28256395,
+                "BaseTextureId": 0,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 28256419,
+                "BaseTextureId": 0,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 28256465,
+                "BaseTextureId": 0,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2010_bear_knight_original",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 27127110,
+                "MeshId": 27127029,
+                "BaseTextureId": 26360262,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 27127110,
+                "MeshId": 27126982,
+                "BaseTextureId": 26360262,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 27127110,
+                "MeshId": 27126930,
+                "BaseTextureId": 26360262,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 27127110,
+                "MeshId": 27126954,
+                "BaseTextureId": 26360262,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 27127110,
+                "MeshId": 27127016,
+                "BaseTextureId": 26360262,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2010_roundblox",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 27356406,
+                "BaseTextureId": 0,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 27356341,
+                "BaseTextureId": 0,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 27356153,
+                "BaseTextureId": 0,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 27356304,
+                "BaseTextureId": 0,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 27356376,
+                "BaseTextureId": 0,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2010_action_figure_original",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 27364758,
+                "BaseTextureId": 0,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 27364693,
+                "BaseTextureId": 0,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 27364583,
+                "BaseTextureId": 0,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 27364657,
+                "BaseTextureId": 0,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 27364730,
+                "BaseTextureId": 0,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2010_aktest",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 27490868,
+                "BaseTextureId": 0,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 41792182,
+                "BaseTextureId": 0,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 27490788,
+                "BaseTextureId": 0,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 27490908,
+                "BaseTextureId": 0,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 27490936,
+                "BaseTextureId": 0,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2010_robot",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 28266136,
+                "BaseTextureId": 0,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 28266085,
+                "BaseTextureId": 0,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 28266031,
+                "BaseTextureId": 0,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 28266058,
+                "BaseTextureId": 0,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 28266100,
+                "BaseTextureId": 0,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2010_the_katana_kid_original",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 30241835,
+                "BaseTextureId": 30241966,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 30241777,
+                "BaseTextureId": 30241966,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 30241711,
+                "BaseTextureId": 30241966,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 30241734,
+                "BaseTextureId": 30241966,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 30241817,
+                "BaseTextureId": 30241966,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2010_aladdin",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 33245804,
+                "BaseTextureId": 33247738,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 33245711,
+                "BaseTextureId": 33247738,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 33245593,
+                "BaseTextureId": 33247738,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 33245642,
+                "BaseTextureId": 33247738,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 33245740,
+                "BaseTextureId": 33247738,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2010_alien_with_fingers",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 33306012,
+                "BaseTextureId": 33304901,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 33304703,
+                "BaseTextureId": 33304901,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 33305868,
+                "BaseTextureId": 33304901,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 33305920,
+                "BaseTextureId": 33304901,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 33304754,
+                "BaseTextureId": 33304901,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2011_soldier",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 45075570,
+                "BaseTextureId": 45075697,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 45075467,
+                "BaseTextureId": 45075697,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 45075228,
+                "BaseTextureId": 45075697,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 45075301,
+                "BaseTextureId": 45075697,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 45075509,
+                "BaseTextureId": 45075697,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2011_bounty_hunter_v2",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 45078194,
+                "BaseTextureId": 45082404,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 53990079,
+                "BaseTextureId": 45082404,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 53990178,
+                "BaseTextureId": 45082404,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 53990151,
+                "BaseTextureId": 45082404,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 53990038,
+                "BaseTextureId": 45082404,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2011_bounty_hunter_v3",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 53991260,
+                "BaseTextureId": 45082404,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 53990079,
+                "BaseTextureId": 45082404,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 53990178,
+                "BaseTextureId": 45082404,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 53990151,
+                "BaseTextureId": 45082404,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 53990038,
+                "BaseTextureId": 45082404,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2011_bounty_hunter_v4",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 53995019,
+                "BaseTextureId": 45082404,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 53990079,
+                "BaseTextureId": 45082404,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 53990178,
+                "BaseTextureId": 45082404,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 53990151,
+                "BaseTextureId": 45082404,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 53990038,
+                "BaseTextureId": 45082404,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2011_roblox_boy_v2",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 47933931,
+                "BaseTextureId": 0,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 47933989,
+                "BaseTextureId": 0,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 47933823,
+                "BaseTextureId": 0,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 47934149,
+                "BaseTextureId": 0,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 47934089,
+                "BaseTextureId": 0,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2011_roblox_boy_v1",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 47961649,
+                "BaseTextureId": 0,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 47934089,
+                "BaseTextureId": 0,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 47934149,
+                "BaseTextureId": 0,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 47934149,
+                "BaseTextureId": 0,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 47934089,
+                "BaseTextureId": 0,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2011_steampunk_captain",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 53832434,
+                "BaseTextureId": 53488883,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 53832379,
+                "BaseTextureId": 53488883,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 53832314,
+                "BaseTextureId": 53488883,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 53832340,
+                "BaseTextureId": 53488883,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 53832413,
+                "BaseTextureId": 53488883,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2011_penguin_original",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 46209091,
+                "BaseTextureId": 46209271,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 46209150,
+                "BaseTextureId": 46209271,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 46344641,
+                "BaseTextureId": 46209271,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 46209051,
+                "BaseTextureId": 46209271,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 46209174,
+                "BaseTextureId": 46209271,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2011_ghost",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 53846918,
+                "BaseTextureId": 53847129,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 53846973,
+                "BaseTextureId": 53847129,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 53847023,
+                "BaseTextureId": 53847129,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 53847003,
+                "BaseTextureId": 53847129,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 53846942,
+                "BaseTextureId": 53847129,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2011_orc_warrior",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 53859369,
+                "BaseTextureId": 53859341,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 53859403,
+                "BaseTextureId": 53859341,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 53859532,
+                "BaseTextureId": 53859341,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 53859426,
+                "BaseTextureId": 53859341,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 53859386,
+                "BaseTextureId": 53859341,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2011_steel_man",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 53926402,
+                "BaseTextureId": 53926545,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 53926452,
+                "BaseTextureId": 53926545,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 53926519,
+                "BaseTextureId": 53926545,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 53926492,
+                "BaseTextureId": 53926545,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 53926437,
+                "BaseTextureId": 53926545,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2011_mad_max",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 55041645,
+                "BaseTextureId": 53966935,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 55043889,
+                "BaseTextureId": 53966935,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 55044027,
+                "BaseTextureId": 53966935,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 55043990,
+                "BaseTextureId": 53966935,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 55043840,
+                "BaseTextureId": 53966935,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2011_hipster",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 53971166,
+                "BaseTextureId": 53971086,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 53971224,
+                "BaseTextureId": 53971086,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 53971302,
+                "BaseTextureId": 53971086,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 53971259,
+                "BaseTextureId": 53971086,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 53971183,
+                "BaseTextureId": 53971086,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2011_winged_robot",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 55099460,
+                "BaseTextureId": 53975308,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 55099529,
+                "BaseTextureId": 53975308,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 55099630,
+                "BaseTextureId": 53975308,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 55099610,
+                "BaseTextureId": 53975308,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 55099493,
+                "BaseTextureId": 53975308,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2011_amazon_girl",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 55051900,
+                "BaseTextureId": 54066970,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 55052558,
+                "BaseTextureId": 54066970,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 55052629,
+                "BaseTextureId": 54066970,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 55052607,
+                "BaseTextureId": 54066970,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 55052515,
+                "BaseTextureId": 54066970,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2011_princess",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 54069300,
+                "BaseTextureId": 54069610,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 55050417,
+                "BaseTextureId": 54069610,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 55050442,
+                "BaseTextureId": 54069610,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 54069439,
+                "BaseTextureId": 54069610,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 54069364,
+                "BaseTextureId": 54069610,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2011_blue_jahrfyre",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 33308631,
+                "BaseTextureId": 55132364,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 33308774,
+                "BaseTextureId": 55132364,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 33308496,
+                "BaseTextureId": 55132364,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 33308564,
+                "BaseTextureId": 55132364,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 33308827,
+                "BaseTextureId": 55132364,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": [
+            {
+                "AccessoryType": "Hat",
+                "Name": "Hat",
+                "RigHatAttachment": "0, 0.6000000238418579, 0",
+                "AttachmentPointPos": "0, 1.7999999523162842, 0",
+                "MeshId": "rbxassetid://55112550",
+                "AttachmentPointRot": "0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1",
+                "TextureId": "rbxassetid://55131994"
+            }
+        ]
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2011_blue_katana_kid",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 30241835,
+                "BaseTextureId": 55122532,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 55126937,
+                "BaseTextureId": 55122532,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 55126314,
+                "BaseTextureId": 55122532,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 30241734,
+                "BaseTextureId": 55122532,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 30241817,
+                "BaseTextureId": 55122532,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": [
+            {
+                "AccessoryType": "Hat",
+                "Name": "Hat",
+                "RigHatAttachment": "0, 0.6000000238418579, 0",
+                "AttachmentPointPos": "0, 1.7999999523162842, 0",
+                "MeshId": "rbxassetid://55127787",
+                "AttachmentPointRot": "0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1",
+                "TextureId": "rbxassetid://55129009"
+            }
+        ]
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2011_aqua_armor",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 55637813,
+                "BaseTextureId": 55640877,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 55637925,
+                "BaseTextureId": 55640877,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 55637945,
+                "BaseTextureId": 55640877,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 55640758,
+                "BaseTextureId": 55640877,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 55637846,
+                "BaseTextureId": 55640877,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2011_zombie_armor",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 55734907,
+                "BaseTextureId": 55735026,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 55734940,
+                "BaseTextureId": 55735026,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 55734995,
+                "BaseTextureId": 55735026,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 55734969,
+                "BaseTextureId": 55735026,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 55734920,
+                "BaseTextureId": 55640877,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2011_peg_leg_robot",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 55825205,
+                "BaseTextureId": 55825361,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 55825251,
+                "BaseTextureId": 55825361,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 55825332,
+                "BaseTextureId": 55825361,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 55825819,
+                "BaseTextureId": 55825361,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 55825233,
+                "BaseTextureId": 55825361,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2011_goblin",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 55880762,
+                "BaseTextureId": 55881001,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 55881683,
+                "BaseTextureId": 55881001,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 55880884,
+                "BaseTextureId": 55881001,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 55880849,
+                "BaseTextureId": 55881001,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 55880786,
+                "BaseTextureId": 55881001,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2011_cyborg",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 55885596,
+                "BaseTextureId": 55885818,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 55885648,
+                "BaseTextureId": 55885818,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 55885701,
+                "BaseTextureId": 55885818,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 55885675,
+                "BaseTextureId": 55885818,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 55885622,
+                "BaseTextureId": 55885818,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2011_paladin",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 55891010,
+                "BaseTextureId": 55891286,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 55891089,
+                "BaseTextureId": 55891286,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 55891151,
+                "BaseTextureId": 55891286,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 55891129,
+                "BaseTextureId": 55891286,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 55891053,
+                "BaseTextureId": 55891286,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2011_underwater_suit",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 55903332,
+                "BaseTextureId": 55903449,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 55903390,
+                "BaseTextureId": 55903449,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 55903427,
+                "BaseTextureId": 55903449,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 55903418,
+                "BaseTextureId": 55903449,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 55903355,
+                "BaseTextureId": 55903449,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2011_cowboy",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 56142814,
+                "BaseTextureId": 56142295,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 56142866,
+                "BaseTextureId": 56142295,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 56142912,
+                "BaseTextureId": 56142295,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 56142897,
+                "BaseTextureId": 56142295,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 56142846,
+                "BaseTextureId": 56142295,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2011_fairy",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 56184785,
+                "BaseTextureId": 56184902,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 56184819,
+                "BaseTextureId": 56184902,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 56184861,
+                "BaseTextureId": 56184902,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 56184837,
+                "BaseTextureId": 56184902,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 56184801,
+                "BaseTextureId": 56184902,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2011_hockey_goalie",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 56239026,
+                "BaseTextureId": 56239153,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 56239070,
+                "BaseTextureId": 56239153,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 56239096,
+                "BaseTextureId": 56239153,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 56239082,
+                "BaseTextureId": 56239153,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 56239048,
+                "BaseTextureId": 56239153,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2011_crab",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 57483669,
+                "BaseTextureId": 57483889,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 57483745,
+                "BaseTextureId": 57483889,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 57483828,
+                "BaseTextureId": 57483889,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 57483798,
+                "BaseTextureId": 57483889,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 57483713,
+                "BaseTextureId": 57483889,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2011_viking",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 57485956,
+                "BaseTextureId": 57486289,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 57486009,
+                "BaseTextureId": 57486289,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 57486097,
+                "BaseTextureId": 57486289,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 57486067,
+                "BaseTextureId": 57486289,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 57485974,
+                "BaseTextureId": 57486289,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2011_dragon_hunter",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 57688521,
+                "BaseTextureId": 57688919,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 57688725,
+                "BaseTextureId": 57688919,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 57688839,
+                "BaseTextureId": 57688919,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 57688788,
+                "BaseTextureId": 57688919,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 57688658,
+                "BaseTextureId": 57688919,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2011_wizard_robe",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 57770890,
+                "BaseTextureId": 57770228,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 57770104,
+                "BaseTextureId": 57770228,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 57770184,
+                "BaseTextureId": 57770228,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 57770148,
+                "BaseTextureId": 57770228,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 57770059,
+                "BaseTextureId": 57770228,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2011_rusty_tin_robot",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 58233086,
+                "BaseTextureId": 58233361,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 58234007,
+                "BaseTextureId": 58233361,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 58233220,
+                "BaseTextureId": 58233361,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 58233183,
+                "BaseTextureId": 58233361,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 58233115,
+                "BaseTextureId": 58233361,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2011_snowboarder",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 58241278,
+                "BaseTextureId": 58241515,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 58241365,
+                "BaseTextureId": 58241515,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 58241788,
+                "BaseTextureId": 58241515,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 58241402,
+                "BaseTextureId": 58241515,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 58241326,
+                "BaseTextureId": 58241515,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2011_rockstar",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 58882681,
+                "BaseTextureId": 58885235,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 58882795,
+                "BaseTextureId": 58885235,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 58884833,
+                "BaseTextureId": 58885235,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 58883817,
+                "BaseTextureId": 58885235,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 58882708,
+                "BaseTextureId": 58885235,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2011_hunter",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 58901042,
+                "BaseTextureId": 58905366,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 58901125,
+                "BaseTextureId": 58905366,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 58901186,
+                "BaseTextureId": 58905366,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 58901154,
+                "BaseTextureId": 58905366,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 58901086,
+                "BaseTextureId": 58905366,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2011_space_commander",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 63196992,
+                "BaseTextureId": 63197890,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 63197097,
+                "BaseTextureId": 63197890,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 63197137,
+                "BaseTextureId": 63197890,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 63197111,
+                "BaseTextureId": 63197890,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 63197069,
+                "BaseTextureId": 63197890,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2011_space_medic",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 63200025,
+                "BaseTextureId": 63200149,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 63199968,
+                "BaseTextureId": 63200149,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 63199871,
+                "BaseTextureId": 63200149,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 63199903,
+                "BaseTextureId": 63200149,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 63199995,
+                "BaseTextureId": 63200149,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2011_space_special_ops",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 63200025,
+                "BaseTextureId": 63259259,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 63199968,
+                "BaseTextureId": 63259259,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 63199871,
+                "BaseTextureId": 63259259,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 63199903,
+                "BaseTextureId": 63259259,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 63199995,
+                "BaseTextureId": 63259259,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2011_bulk",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 63999153,
+                "BaseTextureId": 63999032,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 63999104,
+                "BaseTextureId": 63999032,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 63999057,
+                "BaseTextureId": 63999032,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 63999092,
+                "BaseTextureId": 63999032,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 63999133,
+                "BaseTextureId": 63999032,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2011_mage",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 64001550,
+                "BaseTextureId": 64000890,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 64000833,
+                "BaseTextureId": 64000890,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 64000815,
+                "BaseTextureId": 64000890,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 64000825,
+                "BaseTextureId": 64000890,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 64000841,
+                "BaseTextureId": 64000890,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2011_luchadore",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 64019519,
+                "BaseTextureId": 64019533,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 64019487,
+                "BaseTextureId": 64019533,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 64019472,
+                "BaseTextureId": 64019533,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 64019478,
+                "BaseTextureId": 64019533,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 64019500,
+                "BaseTextureId": 64019533,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2011_knight_of_the_splintered_skies_acolyte",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 64020450,
+                "BaseTextureId": 64020374,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 64020424,
+                "BaseTextureId": 64020374,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 64020397,
+                "BaseTextureId": 64020374,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 64020404,
+                "BaseTextureId": 64020374,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 64020864,
+                "BaseTextureId": 64020374,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2011_redcliff_bowman",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 64021572,
+                "BaseTextureId": 64021590,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 64021558,
+                "BaseTextureId": 64021590,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 64021544,
+                "BaseTextureId": 64021590,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 64021554,
+                "BaseTextureId": 64021590,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 64021563,
+                "BaseTextureId": 64021590,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2011_triceratops",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 64028284,
+                "BaseTextureId": 64028189,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 64028254,
+                "BaseTextureId": 64028189,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 64028222,
+                "BaseTextureId": 64028189,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 64028238,
+                "BaseTextureId": 64028189,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 64028270,
+                "BaseTextureId": 64028189,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": [
+            {
+                "AccessoryType": "Hat",
+                "Name": "Hat",
+                "RigHatAttachment": "0, 0.6000000238418579, 0",
+                "AttachmentPointPos": "0, 1.7999999523162842, 0",
+                "MeshId": "rbxassetid://64029124",
+                "AttachmentPointRot": "0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1",
+                "TextureId": "rbxassetid://64029141"
+            }
+        ]
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2011_saboteur_bot",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 64045442,
+                "BaseTextureId": 64045298,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 64045388,
+                "BaseTextureId": 64045298,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 64045326,
+                "BaseTextureId": 64045298,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 64045357,
+                "BaseTextureId": 64045298,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 64045422,
+                "BaseTextureId": 64045298,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2011_heavy_tank_bot",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 64567041,
+                "BaseTextureId": 64562913,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 64563108,
+                "BaseTextureId": 64562913,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 64562981,
+                "BaseTextureId": 64562913,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 64563087,
+                "BaseTextureId": 64562913,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 64563131,
+                "BaseTextureId": 64562913,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2011_special_weapons_bot",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 64569277,
+                "BaseTextureId": 64569302,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 64569250,
+                "BaseTextureId": 64569302,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 64569225,
+                "BaseTextureId": 64569302,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 64569239,
+                "BaseTextureId": 64569302,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 64569264,
+                "BaseTextureId": 64569302,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2011_s-s_pilot",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 65048700,
+                "BaseTextureId": 65047435,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 65048720,
+                "BaseTextureId": 65047435,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 65048750,
+                "BaseTextureId": 65047435,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 65048737,
+                "BaseTextureId": 65047435,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 65048713,
+                "BaseTextureId": 65047435,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2011_brainy_bot",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 66783807,
+                "BaseTextureId": 66783739,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 66783783,
+                "BaseTextureId": 66783739,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 66783760,
+                "BaseTextureId": 66783739,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 66783773,
+                "BaseTextureId": 66783739,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 66783794,
+                "BaseTextureId": 66783739,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2011_female_elf",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 67641202,
+                "BaseTextureId": 67641072,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 67641132,
+                "BaseTextureId": 67641072,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 67641096,
+                "BaseTextureId": 67641072,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 67641107,
+                "BaseTextureId": 67641072,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 67641182,
+                "BaseTextureId": 67641072,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2011_snow_wizard",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 68264640,
+                "BaseTextureId": 68262346,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 68264123,
+                "BaseTextureId": 68262346,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 68264101,
+                "BaseTextureId": 68262346,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 68264107,
+                "BaseTextureId": 68262346,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 68264135,
+                "BaseTextureId": 68262346,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2012_general",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 69901183,
+                "BaseTextureId": 69901097,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 69901149,
+                "BaseTextureId": 69901097,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 69901118,
+                "BaseTextureId": 69901097,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 69901130,
+                "BaseTextureId": 69901097,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 69901158,
+                "BaseTextureId": 69901097,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2012_moe",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 73031989,
+                "BaseTextureId": 74169564,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 75390843,
+                "BaseTextureId": 74169564,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 75390829,
+                "BaseTextureId": 74169564,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 73032037,
+                "BaseTextureId": 74169564,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 73032069,
+                "BaseTextureId": 74169564,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2012_larry",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 73032490,
+                "BaseTextureId": 73032561,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 75390843,
+                "BaseTextureId": 73032561,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 75390829,
+                "BaseTextureId": 73032561,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 73032675,
+                "BaseTextureId": 73032561,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 73032716,
+                "BaseTextureId": 73032561,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2012_warrior_monk",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 76124336,
+                "BaseTextureId": 76124206,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 76124314,
+                "BaseTextureId": 76124206,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 76124290,
+                "BaseTextureId": 76124206,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 76124301,
+                "BaseTextureId": 76124206,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 76124317,
+                "BaseTextureId": 76124206,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2012_kre-o_admiral_shane",
+        "Description": "",
+        "Items": [],
+        "HeadData": [
+            {
+                "MeshId": "rbxassetid://78326626",
+                "TextureId": "rbxassetid://78326580",
+                "BodyPart": "Head"
+            }
+        ],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 77794540,
+                "BaseTextureId": 77794506,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 77794524,
+                "BaseTextureId": 77794506,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 77794511,
+                "BaseTextureId": 77794506,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 77794517,
+                "BaseTextureId": 77794506,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 77794533,
+                "BaseTextureId": 77794506,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": [
+            {
+                "AccessoryType": "Unknown",
+                "Name": "KREOAdmiral",
+                "RigHatAttachment": "0, 0.6000000238418579, 0",
+                "AttachmentPointPos": "0, -0.20000000298023224, 0",
+                "MeshId": "http://www.roblox.com/asset/?id=77794960",
+                "AttachmentPointRot": "0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1",
+                "TextureId": "http://www.roblox.com/asset/?id=77794942"
+            }
+        ]
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2012_kre-o_hopper",
+        "Description": "",
+        "Items": [],
+        "HeadData": [
+            {
+                "MeshId": "rbxassetid://78326626",
+                "TextureId": "rbxassetid://78326865",
+                "BodyPart": "Head"
+            }
+        ],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 77802553,
+                "BaseTextureId": 77803845,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 77802523,
+                "BaseTextureId": 77803845,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 77802474,
+                "BaseTextureId": 77803845,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 77802502,
+                "BaseTextureId": 77803845,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 77802534,
+                "BaseTextureId": 77803845,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": [
+            {
+                "AccessoryType": "Unknown",
+                "Name": "KREOHopper",
+                "RigHatAttachment": "0, 0.6000000238418579, 0",
+                "AttachmentPointPos": "0, -0.15000000596046448, 0.15000000596046448",
+                "MeshId": "http://www.roblox.com/asset/?id=77804504",
+                "AttachmentPointRot": "0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1",
+                "TextureId": "http://www.roblox.com/asset/?id=77804493"
+            }
+        ]
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2012_kre-o_alien",
+        "Description": "",
+        "Items": [],
+        "HeadData": [
+            {
+                "MeshId": "rbxassetid://77876018",
+                "TextureId": "rbxassetid://77875980",
+                "BodyPart": "Head"
+            }
+        ],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 77875404,
+                "BaseTextureId": 77875159,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 77875287,
+                "BaseTextureId": 77875159,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 77875242,
+                "BaseTextureId": 77875159,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 77875264,
+                "BaseTextureId": 77875159,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 77875374,
+                "BaseTextureId": 77875159,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2012_army_general",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 90222607,
+                "BaseTextureId": 90217236,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 90222638,
+                "BaseTextureId": 90217236,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 90222766,
+                "BaseTextureId": 90217236,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 90222737,
+                "BaseTextureId": 90217236,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 90222561,
+                "BaseTextureId": 90217236,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2012_bw_sniper_blue",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 101857766,
+                "BaseTextureId": 101857437,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 101857673,
+                "BaseTextureId": 101857437,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 101857574,
+                "BaseTextureId": 101857437,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 101857621,
+                "BaseTextureId": 101857437,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 101857717,
+                "BaseTextureId": 101857437,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2015_medieval_thief",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 284121061,
+                "BaseTextureId": 284115656,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 284121207,
+                "BaseTextureId": 284115656,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 284121361,
+                "BaseTextureId": 284115656,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 284121280,
+                "BaseTextureId": 284115656,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 284121149,
+                "BaseTextureId": 284115656,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": [
+            {
+                "AccessoryType": "Hat",
+                "Name": "Hat",
+                "RigHatAttachment": "0, 0.6000000238418579, 0",
+                "AttachmentPointPos": "0, 1.7999999523162842, 0",
+                "MeshId": "rbxassetid://284116562",
+                "AttachmentPointRot": "0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1",
+                "TextureId": "rbxassetid://284116627"
+            }
+        ]
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2015_alien_girl",
+        "Description": "",
+        "Items": [],
+        "HeadData": [
+            {
+                "MeshId": "rbxassetid://272685273",
+                "TextureId": "rbxassetid://272685071",
+                "BodyPart": "Head"
+            }
+        ],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 273436679,
+                "BaseTextureId": 273436850,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 273436565,
+                "BaseTextureId": 273436850,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 273436328,
+                "BaseTextureId": 273436850,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 273436457,
+                "BaseTextureId": 273436850,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 273436628,
+                "BaseTextureId": 273436850,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2015_lost_girl",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 276459127,
+                "BaseTextureId": 276459048,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 276459221,
+                "BaseTextureId": 276459048,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 276459293,
+                "BaseTextureId": 276459048,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 276459262,
+                "BaseTextureId": 276459048,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 276459183,
+                "BaseTextureId": 276459048,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2015_mythical_god",
+        "Description": "",
+        "Items": [],
+        "HeadData": [
+            {
+                "TextureId": "rbxassetid://286119333",
+                "BodyPart": "Face"
+            }
+        ],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 276469613,
+                "BaseTextureId": 276470468,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 276470222,
+                "BaseTextureId": 276470468,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 276470310,
+                "BaseTextureId": 276470468,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 276470073,
+                "BaseTextureId": 276470468,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 276469724,
+                "BaseTextureId": 276470468,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    },
+    {
+        "BundleType": "BodyParts",
+        "Name": "bundle_2015_adventurer",
+        "Description": "",
+        "Items": [],
+        "HeadData": [],
+        "CharacterMeshes": [
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 273036493,
+                "BaseTextureId": 273036266,
+                "BodyPart": "Torso"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 273036633,
+                "BaseTextureId": 273036266,
+                "BodyPart": "RightArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 273036672,
+                "BaseTextureId": 273036266,
+                "BodyPart": "LeftArm"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 273036709,
+                "BaseTextureId": 273036266,
+                "BodyPart": "LeftLeg"
+            },
+            {
+                "OverlayTextureId": 0,
+                "MeshId": 273036572,
+                "BaseTextureId": 273036266,
+                "BodyPart": "RightLeg"
+            }
+        ],
+        "Accessories": []
+    }
+]
