@@ -7,6 +7,7 @@ import time
 asset_delivery_url = "https://assetdelivery.roblox.com/v1/asset/?id="
 json_path = "./BundleListCanceled.json"
 
+# TODO: Move to handle_bundle_data, and get either bundle id or the name of the bundle to find the correct directory
 current_directory = os.getcwd()
 final_directory = os.path.join(current_directory, r'new_folder')
 if not os.path.exists(final_directory):
@@ -15,7 +16,7 @@ if not os.path.exists(final_directory):
 def handle_bundle_data(bundle_data):
     print("handle")
     
-    # handle body parts
+    # Handle body parts
     for body_part in bundle_data["CharacterMeshes"]:
         # Init directories
         texture_dir = os.path.join(final_directory, r'Textures')
@@ -49,11 +50,18 @@ def handle_bundle_data(bundle_data):
         # Wait to avoid rate limits
         time.sleep(1)
         print(body_part)
+    
+    #TODO:
+    # Handle accessories
+    # Handle head meshes and face textures (if present)
 
 with open(json_path, 'r') as file:
     data = json.load(file)
     
 handle_bundle_data(data[6])
+
+# for bundle in data:
+#     handle_bundle_data(bundle)
 
 # # Checks if the content of the response is a PNG
 # file_type = ""
