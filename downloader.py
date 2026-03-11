@@ -45,8 +45,8 @@ def handle_asset(tex_dir, tex_id, mesh_dir: Optional[str] = None, mesh_id: Optio
         mesh_to_obj.mesh_to_obj(mesh, (mesh_dir + "/" + str(mesh_id) + ".obj" ), texture_file_location)
         
 def asset_id_to_id(asset_id: str):
-    return int(asset_id.split("//").pop()) 
-        
+    return int(asset_id.split("//").pop())
+
 def handle_bundle_data(bundle_data):
     base_dir = os.getcwd()
     canceled_bundle = False
