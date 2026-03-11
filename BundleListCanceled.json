@@ -47,33 +47,33 @@
         "HeadData": [],
         "CharacterMeshes": [
             {
-                "OverlayTextureId": 27127110,
+                "OverlayTextureId": 26360262,
                 "MeshId": 27127029,
-                "BaseTextureId": 26360262,
+                "BaseTextureId": 27127110,
                 "BodyPart": "Torso"
             },
             {
-                "OverlayTextureId": 27127110,
+                "OverlayTextureId": 26360262,
                 "MeshId": 27126982,
-                "BaseTextureId": 26360262,
+                "BaseTextureId": 27127110,
                 "BodyPart": "RightArm"
             },
             {
-                "OverlayTextureId": 27127110,
+                "OverlayTextureId": 26360262,
                 "MeshId": 27126930,
-                "BaseTextureId": 26360262,
+                "BaseTextureId": 27127110,
                 "BodyPart": "LeftArm"
             },
             {
-                "OverlayTextureId": 27127110,
+                "OverlayTextureId": 26360262,
                 "MeshId": 27126954,
-                "BaseTextureId": 26360262,
+                "BaseTextureId": 27127110,
                 "BodyPart": "LeftLeg"
             },
             {
-                "OverlayTextureId": 27127110,
+                "OverlayTextureId": 26360262,
                 "MeshId": 27127016,
-                "BaseTextureId": 26360262,
+                "BaseTextureId": 27127110,
                 "BodyPart": "RightLeg"
             }
         ],
@@ -247,33 +247,33 @@
         "HeadData": [],
         "CharacterMeshes": [
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 30241966,
                 "MeshId": 30241835,
-                "BaseTextureId": 30241966,
+                "BaseTextureId": 0,
                 "BodyPart": "Torso"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 30241966,
                 "MeshId": 30241777,
-                "BaseTextureId": 30241966,
+                "BaseTextureId": 0,
                 "BodyPart": "RightArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 30241966,
                 "MeshId": 30241711,
-                "BaseTextureId": 30241966,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 30241966,
                 "MeshId": 30241734,
-                "BaseTextureId": 30241966,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftLeg"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 30241966,
                 "MeshId": 30241817,
-                "BaseTextureId": 30241966,
+                "BaseTextureId": 0,
                 "BodyPart": "RightLeg"
             }
         ],
@@ -287,33 +287,33 @@
         "HeadData": [],
         "CharacterMeshes": [
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 33247738,
                 "MeshId": 33245804,
-                "BaseTextureId": 33247738,
+                "BaseTextureId": 0,
                 "BodyPart": "Torso"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 33247738,
                 "MeshId": 33245711,
-                "BaseTextureId": 33247738,
+                "BaseTextureId": 0,
                 "BodyPart": "RightArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 33247738,
                 "MeshId": 33245593,
-                "BaseTextureId": 33247738,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 33247738,
                 "MeshId": 33245642,
-                "BaseTextureId": 33247738,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftLeg"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 33247738,
                 "MeshId": 33245740,
-                "BaseTextureId": 33247738,
+                "BaseTextureId": 0,
                 "BodyPart": "RightLeg"
             }
         ],
@@ -327,33 +327,33 @@
         "HeadData": [],
         "CharacterMeshes": [
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 33304901,
                 "MeshId": 33306012,
-                "BaseTextureId": 33304901,
+                "BaseTextureId": 0,
                 "BodyPart": "Torso"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 33304901,
                 "MeshId": 33304703,
-                "BaseTextureId": 33304901,
+                "BaseTextureId": 0,
                 "BodyPart": "RightArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 33304901,
                 "MeshId": 33305868,
-                "BaseTextureId": 33304901,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 33304901,
                 "MeshId": 33305920,
-                "BaseTextureId": 33304901,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftLeg"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 33304901,
                 "MeshId": 33304754,
-                "BaseTextureId": 33304901,
+                "BaseTextureId": 0,
                 "BodyPart": "RightLeg"
             }
         ],
@@ -367,33 +367,33 @@
         "HeadData": [],
         "CharacterMeshes": [
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 45075697,
                 "MeshId": 45075570,
-                "BaseTextureId": 45075697,
+                "BaseTextureId": 0,
                 "BodyPart": "Torso"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 45075697,
                 "MeshId": 45075467,
-                "BaseTextureId": 45075697,
+                "BaseTextureId": 0,
                 "BodyPart": "RightArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 45075697,
                 "MeshId": 45075228,
-                "BaseTextureId": 45075697,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 45075697,
                 "MeshId": 45075301,
-                "BaseTextureId": 45075697,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftLeg"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 45075697,
                 "MeshId": 45075509,
-                "BaseTextureId": 45075697,
+                "BaseTextureId": 0,
                 "BodyPart": "RightLeg"
             }
         ],
@@ -407,33 +407,33 @@
         "HeadData": [],
         "CharacterMeshes": [
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 45082404,
                 "MeshId": 45078194,
-                "BaseTextureId": 45082404,
+                "BaseTextureId": 0,
                 "BodyPart": "Torso"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 45082404,
                 "MeshId": 53990079,
-                "BaseTextureId": 45082404,
+                "BaseTextureId": 0,
                 "BodyPart": "RightArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 45082404,
                 "MeshId": 53990178,
-                "BaseTextureId": 45082404,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 45082404,
                 "MeshId": 53990151,
-                "BaseTextureId": 45082404,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftLeg"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 45082404,
                 "MeshId": 53990038,
-                "BaseTextureId": 45082404,
+                "BaseTextureId": 0,
                 "BodyPart": "RightLeg"
             }
         ],
@@ -447,33 +447,33 @@
         "HeadData": [],
         "CharacterMeshes": [
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 45082404,
                 "MeshId": 53991260,
-                "BaseTextureId": 45082404,
+                "BaseTextureId": 0,
                 "BodyPart": "Torso"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 45082404,
                 "MeshId": 53990079,
-                "BaseTextureId": 45082404,
+                "BaseTextureId": 0,
                 "BodyPart": "RightArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 45082404,
                 "MeshId": 53990178,
-                "BaseTextureId": 45082404,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 45082404,
                 "MeshId": 53990151,
-                "BaseTextureId": 45082404,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftLeg"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 45082404,
                 "MeshId": 53990038,
-                "BaseTextureId": 45082404,
+                "BaseTextureId": 0,
                 "BodyPart": "RightLeg"
             }
         ],
@@ -487,33 +487,33 @@
         "HeadData": [],
         "CharacterMeshes": [
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 45082404,
                 "MeshId": 53995019,
-                "BaseTextureId": 45082404,
+                "BaseTextureId": 0,
                 "BodyPart": "Torso"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 45082404,
                 "MeshId": 53990079,
-                "BaseTextureId": 45082404,
+                "BaseTextureId": 0,
                 "BodyPart": "RightArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 45082404,
                 "MeshId": 53990178,
-                "BaseTextureId": 45082404,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 45082404,
                 "MeshId": 53990151,
-                "BaseTextureId": 45082404,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftLeg"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 45082404,
                 "MeshId": 53990038,
-                "BaseTextureId": 45082404,
+                "BaseTextureId": 0,
                 "BodyPart": "RightLeg"
             }
         ],
@@ -607,33 +607,33 @@
         "HeadData": [],
         "CharacterMeshes": [
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 53488883,
                 "MeshId": 53832434,
-                "BaseTextureId": 53488883,
+                "BaseTextureId": 0,
                 "BodyPart": "Torso"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 53488883,
                 "MeshId": 53832379,
-                "BaseTextureId": 53488883,
+                "BaseTextureId": 0,
                 "BodyPart": "RightArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 53488883,
                 "MeshId": 53832314,
-                "BaseTextureId": 53488883,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 53488883,
                 "MeshId": 53832340,
-                "BaseTextureId": 53488883,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftLeg"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 53488883,
                 "MeshId": 53832413,
-                "BaseTextureId": 53488883,
+                "BaseTextureId": 0,
                 "BodyPart": "RightLeg"
             }
         ],
@@ -647,33 +647,33 @@
         "HeadData": [],
         "CharacterMeshes": [
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 46209271,
                 "MeshId": 46209091,
-                "BaseTextureId": 46209271,
+                "BaseTextureId": 0,
                 "BodyPart": "Torso"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 46209271,
                 "MeshId": 46209150,
-                "BaseTextureId": 46209271,
+                "BaseTextureId": 0,
                 "BodyPart": "RightArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 46209271,
                 "MeshId": 46344641,
-                "BaseTextureId": 46209271,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 46209271,
                 "MeshId": 46209051,
-                "BaseTextureId": 46209271,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftLeg"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 46209271,
                 "MeshId": 46209174,
-                "BaseTextureId": 46209271,
+                "BaseTextureId": 0,
                 "BodyPart": "RightLeg"
             }
         ],
@@ -687,33 +687,33 @@
         "HeadData": [],
         "CharacterMeshes": [
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 53847129,
                 "MeshId": 53846918,
-                "BaseTextureId": 53847129,
+                "BaseTextureId": 0,
                 "BodyPart": "Torso"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 53847129,
                 "MeshId": 53846973,
-                "BaseTextureId": 53847129,
+                "BaseTextureId": 0,
                 "BodyPart": "RightArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 53847129,
                 "MeshId": 53847023,
-                "BaseTextureId": 53847129,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 53847129,
                 "MeshId": 53847003,
-                "BaseTextureId": 53847129,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftLeg"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 53847129,
                 "MeshId": 53846942,
-                "BaseTextureId": 53847129,
+                "BaseTextureId": 0,
                 "BodyPart": "RightLeg"
             }
         ],
@@ -727,33 +727,33 @@
         "HeadData": [],
         "CharacterMeshes": [
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 53859341,
                 "MeshId": 53859369,
-                "BaseTextureId": 53859341,
+                "BaseTextureId": 0,
                 "BodyPart": "Torso"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 53859341,
                 "MeshId": 53859403,
-                "BaseTextureId": 53859341,
+                "BaseTextureId": 0,
                 "BodyPart": "RightArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 53859341,
                 "MeshId": 53859532,
-                "BaseTextureId": 53859341,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 53859341,
                 "MeshId": 53859426,
-                "BaseTextureId": 53859341,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftLeg"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 53859341,
                 "MeshId": 53859386,
-                "BaseTextureId": 53859341,
+                "BaseTextureId": 0,
                 "BodyPart": "RightLeg"
             }
         ],
@@ -767,33 +767,33 @@
         "HeadData": [],
         "CharacterMeshes": [
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 53926545,
                 "MeshId": 53926402,
-                "BaseTextureId": 53926545,
+                "BaseTextureId": 0,
                 "BodyPart": "Torso"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 53926545,
                 "MeshId": 53926452,
-                "BaseTextureId": 53926545,
+                "BaseTextureId": 0,
                 "BodyPart": "RightArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 53926545,
                 "MeshId": 53926519,
-                "BaseTextureId": 53926545,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 53926545,
                 "MeshId": 53926492,
-                "BaseTextureId": 53926545,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftLeg"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 53926545,
                 "MeshId": 53926437,
-                "BaseTextureId": 53926545,
+                "BaseTextureId": 0,
                 "BodyPart": "RightLeg"
             }
         ],
@@ -807,33 +807,33 @@
         "HeadData": [],
         "CharacterMeshes": [
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 53966935,
                 "MeshId": 55041645,
-                "BaseTextureId": 53966935,
+                "BaseTextureId": 0,
                 "BodyPart": "Torso"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 53966935,
                 "MeshId": 55043889,
-                "BaseTextureId": 53966935,
+                "BaseTextureId": 0,
                 "BodyPart": "RightArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 53966935,
                 "MeshId": 55044027,
-                "BaseTextureId": 53966935,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 53966935,
                 "MeshId": 55043990,
-                "BaseTextureId": 53966935,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftLeg"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 53966935,
                 "MeshId": 55043840,
-                "BaseTextureId": 53966935,
+                "BaseTextureId": 0,
                 "BodyPart": "RightLeg"
             }
         ],
@@ -847,33 +847,33 @@
         "HeadData": [],
         "CharacterMeshes": [
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 53971086,
                 "MeshId": 53971166,
-                "BaseTextureId": 53971086,
+                "BaseTextureId": 0,
                 "BodyPart": "Torso"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 53971086,
                 "MeshId": 53971224,
-                "BaseTextureId": 53971086,
+                "BaseTextureId": 0,
                 "BodyPart": "RightArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 53971086,
                 "MeshId": 53971302,
-                "BaseTextureId": 53971086,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 53971086,
                 "MeshId": 53971259,
-                "BaseTextureId": 53971086,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftLeg"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 53971086,
                 "MeshId": 53971183,
-                "BaseTextureId": 53971086,
+                "BaseTextureId": 0,
                 "BodyPart": "RightLeg"
             }
         ],
@@ -887,33 +887,33 @@
         "HeadData": [],
         "CharacterMeshes": [
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 53975308,
                 "MeshId": 55099460,
-                "BaseTextureId": 53975308,
+                "BaseTextureId": 0,
                 "BodyPart": "Torso"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 53975308,
                 "MeshId": 55099529,
-                "BaseTextureId": 53975308,
+                "BaseTextureId": 0,
                 "BodyPart": "RightArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 53975308,
                 "MeshId": 55099630,
-                "BaseTextureId": 53975308,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 53975308,
                 "MeshId": 55099610,
-                "BaseTextureId": 53975308,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftLeg"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 53975308,
                 "MeshId": 55099493,
-                "BaseTextureId": 53975308,
+                "BaseTextureId": 0,
                 "BodyPart": "RightLeg"
             }
         ],
@@ -927,33 +927,33 @@
         "HeadData": [],
         "CharacterMeshes": [
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 54066970,
                 "MeshId": 55051900,
-                "BaseTextureId": 54066970,
+                "BaseTextureId": 0,
                 "BodyPart": "Torso"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 54066970,
                 "MeshId": 55052558,
-                "BaseTextureId": 54066970,
+                "BaseTextureId": 0,
                 "BodyPart": "RightArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 54066970,
                 "MeshId": 55052629,
-                "BaseTextureId": 54066970,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 54066970,
                 "MeshId": 55052607,
-                "BaseTextureId": 54066970,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftLeg"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 54066970,
                 "MeshId": 55052515,
-                "BaseTextureId": 54066970,
+                "BaseTextureId": 0,
                 "BodyPart": "RightLeg"
             }
         ],
@@ -967,33 +967,33 @@
         "HeadData": [],
         "CharacterMeshes": [
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 54069610,
                 "MeshId": 54069300,
-                "BaseTextureId": 54069610,
+                "BaseTextureId": 0,
                 "BodyPart": "Torso"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 54069610,
                 "MeshId": 55050417,
-                "BaseTextureId": 54069610,
+                "BaseTextureId": 0,
                 "BodyPart": "RightArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 54069610,
                 "MeshId": 55050442,
-                "BaseTextureId": 54069610,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 54069610,
                 "MeshId": 54069439,
-                "BaseTextureId": 54069610,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftLeg"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 54069610,
                 "MeshId": 54069364,
-                "BaseTextureId": 54069610,
+                "BaseTextureId": 0,
                 "BodyPart": "RightLeg"
             }
         ],
@@ -1007,33 +1007,33 @@
         "HeadData": [],
         "CharacterMeshes": [
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 55132364,
                 "MeshId": 33308631,
-                "BaseTextureId": 55132364,
+                "BaseTextureId": 0,
                 "BodyPart": "Torso"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 55132364,
                 "MeshId": 33308774,
-                "BaseTextureId": 55132364,
+                "BaseTextureId": 0,
                 "BodyPart": "RightArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 55132364,
                 "MeshId": 33308496,
-                "BaseTextureId": 55132364,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 55132364,
                 "MeshId": 33308564,
-                "BaseTextureId": 55132364,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftLeg"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 55132364,
                 "MeshId": 33308827,
-                "BaseTextureId": 55132364,
+                "BaseTextureId": 0,
                 "BodyPart": "RightLeg"
             }
         ],
@@ -1057,33 +1057,33 @@
         "HeadData": [],
         "CharacterMeshes": [
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 55122532,
                 "MeshId": 30241835,
-                "BaseTextureId": 55122532,
+                "BaseTextureId": 0,
                 "BodyPart": "Torso"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 55122532,
                 "MeshId": 55126937,
-                "BaseTextureId": 55122532,
+                "BaseTextureId": 0,
                 "BodyPart": "RightArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 55122532,
                 "MeshId": 55126314,
-                "BaseTextureId": 55122532,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 55122532,
                 "MeshId": 30241734,
-                "BaseTextureId": 55122532,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftLeg"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 55122532,
                 "MeshId": 30241817,
-                "BaseTextureId": 55122532,
+                "BaseTextureId": 0,
                 "BodyPart": "RightLeg"
             }
         ],
@@ -1107,33 +1107,33 @@
         "HeadData": [],
         "CharacterMeshes": [
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 55640877,
                 "MeshId": 55637813,
-                "BaseTextureId": 55640877,
+                "BaseTextureId": 0,
                 "BodyPart": "Torso"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 55640877,
                 "MeshId": 55637925,
-                "BaseTextureId": 55640877,
+                "BaseTextureId": 0,
                 "BodyPart": "RightArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 55640877,
                 "MeshId": 55637945,
-                "BaseTextureId": 55640877,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 55640877,
                 "MeshId": 55640758,
-                "BaseTextureId": 55640877,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftLeg"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 55640877,
                 "MeshId": 55637846,
-                "BaseTextureId": 55640877,
+                "BaseTextureId": 0,
                 "BodyPart": "RightLeg"
             }
         ],
@@ -1147,33 +1147,33 @@
         "HeadData": [],
         "CharacterMeshes": [
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 55735026,
                 "MeshId": 55734907,
-                "BaseTextureId": 55735026,
+                "BaseTextureId": 0,
                 "BodyPart": "Torso"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 55735026,
                 "MeshId": 55734940,
-                "BaseTextureId": 55735026,
+                "BaseTextureId": 0,
                 "BodyPart": "RightArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 55735026,
                 "MeshId": 55734995,
-                "BaseTextureId": 55735026,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 55735026,
                 "MeshId": 55734969,
-                "BaseTextureId": 55735026,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftLeg"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 55640877,
                 "MeshId": 55734920,
-                "BaseTextureId": 55640877,
+                "BaseTextureId": 0,
                 "BodyPart": "RightLeg"
             }
         ],
@@ -1187,33 +1187,33 @@
         "HeadData": [],
         "CharacterMeshes": [
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 55825361,
                 "MeshId": 55825205,
-                "BaseTextureId": 55825361,
+                "BaseTextureId": 0,
                 "BodyPart": "Torso"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 55825361,
                 "MeshId": 55825251,
-                "BaseTextureId": 55825361,
+                "BaseTextureId": 0,
                 "BodyPart": "RightArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 55825361,
                 "MeshId": 55825332,
-                "BaseTextureId": 55825361,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 55825361,
                 "MeshId": 55825819,
-                "BaseTextureId": 55825361,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftLeg"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 55825361,
                 "MeshId": 55825233,
-                "BaseTextureId": 55825361,
+                "BaseTextureId": 0,
                 "BodyPart": "RightLeg"
             }
         ],
@@ -1227,33 +1227,33 @@
         "HeadData": [],
         "CharacterMeshes": [
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 55881001,
                 "MeshId": 55880762,
-                "BaseTextureId": 55881001,
+                "BaseTextureId": 0,
                 "BodyPart": "Torso"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 55881001,
                 "MeshId": 55881683,
-                "BaseTextureId": 55881001,
+                "BaseTextureId": 0,
                 "BodyPart": "RightArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 55881001,
                 "MeshId": 55880884,
-                "BaseTextureId": 55881001,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 55881001,
                 "MeshId": 55880849,
-                "BaseTextureId": 55881001,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftLeg"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 55881001,
                 "MeshId": 55880786,
-                "BaseTextureId": 55881001,
+                "BaseTextureId": 0,
                 "BodyPart": "RightLeg"
             }
         ],
@@ -1267,33 +1267,33 @@
         "HeadData": [],
         "CharacterMeshes": [
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 55885818,
                 "MeshId": 55885596,
-                "BaseTextureId": 55885818,
+                "BaseTextureId": 0,
                 "BodyPart": "Torso"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 55885818,
                 "MeshId": 55885648,
-                "BaseTextureId": 55885818,
+                "BaseTextureId": 0,
                 "BodyPart": "RightArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 55885818,
                 "MeshId": 55885701,
-                "BaseTextureId": 55885818,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 55885818,
                 "MeshId": 55885675,
-                "BaseTextureId": 55885818,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftLeg"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 55885818,
                 "MeshId": 55885622,
-                "BaseTextureId": 55885818,
+                "BaseTextureId": 0,
                 "BodyPart": "RightLeg"
             }
         ],
@@ -1307,33 +1307,33 @@
         "HeadData": [],
         "CharacterMeshes": [
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 55891286,
                 "MeshId": 55891010,
-                "BaseTextureId": 55891286,
+                "BaseTextureId": 0,
                 "BodyPart": "Torso"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 55891286,
                 "MeshId": 55891089,
-                "BaseTextureId": 55891286,
+                "BaseTextureId": 0,
                 "BodyPart": "RightArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 55891286,
                 "MeshId": 55891151,
-                "BaseTextureId": 55891286,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 55891286,
                 "MeshId": 55891129,
-                "BaseTextureId": 55891286,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftLeg"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 55891286,
                 "MeshId": 55891053,
-                "BaseTextureId": 55891286,
+                "BaseTextureId": 0,
                 "BodyPart": "RightLeg"
             }
         ],
@@ -1347,33 +1347,33 @@
         "HeadData": [],
         "CharacterMeshes": [
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 55903449,
                 "MeshId": 55903332,
-                "BaseTextureId": 55903449,
+                "BaseTextureId": 0,
                 "BodyPart": "Torso"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 55903449,
                 "MeshId": 55903390,
-                "BaseTextureId": 55903449,
+                "BaseTextureId": 0,
                 "BodyPart": "RightArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 55903449,
                 "MeshId": 55903427,
-                "BaseTextureId": 55903449,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 55903449,
                 "MeshId": 55903418,
-                "BaseTextureId": 55903449,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftLeg"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 55903449,
                 "MeshId": 55903355,
-                "BaseTextureId": 55903449,
+                "BaseTextureId": 0,
                 "BodyPart": "RightLeg"
             }
         ],
@@ -1387,33 +1387,33 @@
         "HeadData": [],
         "CharacterMeshes": [
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 56142295,
                 "MeshId": 56142814,
-                "BaseTextureId": 56142295,
+                "BaseTextureId": 0,
                 "BodyPart": "Torso"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 56142295,
                 "MeshId": 56142866,
-                "BaseTextureId": 56142295,
+                "BaseTextureId": 0,
                 "BodyPart": "RightArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 56142295,
                 "MeshId": 56142912,
-                "BaseTextureId": 56142295,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 56142295,
                 "MeshId": 56142897,
-                "BaseTextureId": 56142295,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftLeg"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 56142295,
                 "MeshId": 56142846,
-                "BaseTextureId": 56142295,
+                "BaseTextureId": 0,
                 "BodyPart": "RightLeg"
             }
         ],
@@ -1427,33 +1427,33 @@
         "HeadData": [],
         "CharacterMeshes": [
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 56184902,
                 "MeshId": 56184785,
-                "BaseTextureId": 56184902,
+                "BaseTextureId": 0,
                 "BodyPart": "Torso"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 56184902,
                 "MeshId": 56184819,
-                "BaseTextureId": 56184902,
+                "BaseTextureId": 0,
                 "BodyPart": "RightArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 56184902,
                 "MeshId": 56184861,
-                "BaseTextureId": 56184902,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 56184902,
                 "MeshId": 56184837,
-                "BaseTextureId": 56184902,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftLeg"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 56184902,
                 "MeshId": 56184801,
-                "BaseTextureId": 56184902,
+                "BaseTextureId": 0,
                 "BodyPart": "RightLeg"
             }
         ],
@@ -1467,33 +1467,33 @@
         "HeadData": [],
         "CharacterMeshes": [
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 56239153,
                 "MeshId": 56239026,
-                "BaseTextureId": 56239153,
+                "BaseTextureId": 0,
                 "BodyPart": "Torso"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 56239153,
                 "MeshId": 56239070,
-                "BaseTextureId": 56239153,
+                "BaseTextureId": 0,
                 "BodyPart": "RightArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 56239153,
                 "MeshId": 56239096,
-                "BaseTextureId": 56239153,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 56239153,
                 "MeshId": 56239082,
-                "BaseTextureId": 56239153,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftLeg"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 56239153,
                 "MeshId": 56239048,
-                "BaseTextureId": 56239153,
+                "BaseTextureId": 0,
                 "BodyPart": "RightLeg"
             }
         ],
@@ -1507,33 +1507,33 @@
         "HeadData": [],
         "CharacterMeshes": [
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 57483889,
                 "MeshId": 57483669,
-                "BaseTextureId": 57483889,
+                "BaseTextureId": 0,
                 "BodyPart": "Torso"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 57483889,
                 "MeshId": 57483745,
-                "BaseTextureId": 57483889,
+                "BaseTextureId": 0,
                 "BodyPart": "RightArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 57483889,
                 "MeshId": 57483828,
-                "BaseTextureId": 57483889,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 57483889,
                 "MeshId": 57483798,
-                "BaseTextureId": 57483889,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftLeg"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 57483889,
                 "MeshId": 57483713,
-                "BaseTextureId": 57483889,
+                "BaseTextureId": 0,
                 "BodyPart": "RightLeg"
             }
         ],
@@ -1547,33 +1547,33 @@
         "HeadData": [],
         "CharacterMeshes": [
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 57486289,
                 "MeshId": 57485956,
-                "BaseTextureId": 57486289,
+                "BaseTextureId": 0,
                 "BodyPart": "Torso"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 57486289,
                 "MeshId": 57486009,
-                "BaseTextureId": 57486289,
+                "BaseTextureId": 0,
                 "BodyPart": "RightArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 57486289,
                 "MeshId": 57486097,
-                "BaseTextureId": 57486289,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 57486289,
                 "MeshId": 57486067,
-                "BaseTextureId": 57486289,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftLeg"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 57486289,
                 "MeshId": 57485974,
-                "BaseTextureId": 57486289,
+                "BaseTextureId": 0,
                 "BodyPart": "RightLeg"
             }
         ],
@@ -1587,33 +1587,33 @@
         "HeadData": [],
         "CharacterMeshes": [
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 57688919,
                 "MeshId": 57688521,
-                "BaseTextureId": 57688919,
+                "BaseTextureId": 0,
                 "BodyPart": "Torso"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 57688919,
                 "MeshId": 57688725,
-                "BaseTextureId": 57688919,
+                "BaseTextureId": 0,
                 "BodyPart": "RightArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 57688919,
                 "MeshId": 57688839,
-                "BaseTextureId": 57688919,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 57688919,
                 "MeshId": 57688788,
-                "BaseTextureId": 57688919,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftLeg"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 57688919,
                 "MeshId": 57688658,
-                "BaseTextureId": 57688919,
+                "BaseTextureId": 0,
                 "BodyPart": "RightLeg"
             }
         ],
@@ -1627,33 +1627,33 @@
         "HeadData": [],
         "CharacterMeshes": [
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 57770228,
                 "MeshId": 57770890,
-                "BaseTextureId": 57770228,
+                "BaseTextureId": 0,
                 "BodyPart": "Torso"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 57770228,
                 "MeshId": 57770104,
-                "BaseTextureId": 57770228,
+                "BaseTextureId": 0,
                 "BodyPart": "RightArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 57770228,
                 "MeshId": 57770184,
-                "BaseTextureId": 57770228,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 57770228,
                 "MeshId": 57770148,
-                "BaseTextureId": 57770228,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftLeg"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 57770228,
                 "MeshId": 57770059,
-                "BaseTextureId": 57770228,
+                "BaseTextureId": 0,
                 "BodyPart": "RightLeg"
             }
         ],
@@ -1667,33 +1667,33 @@
         "HeadData": [],
         "CharacterMeshes": [
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 58233361,
                 "MeshId": 58233086,
-                "BaseTextureId": 58233361,
+                "BaseTextureId": 0,
                 "BodyPart": "Torso"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 58233361,
                 "MeshId": 58234007,
-                "BaseTextureId": 58233361,
+                "BaseTextureId": 0,
                 "BodyPart": "RightArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 58233361,
                 "MeshId": 58233220,
-                "BaseTextureId": 58233361,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 58233361,
                 "MeshId": 58233183,
-                "BaseTextureId": 58233361,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftLeg"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 58233361,
                 "MeshId": 58233115,
-                "BaseTextureId": 58233361,
+                "BaseTextureId": 0,
                 "BodyPart": "RightLeg"
             }
         ],
@@ -1707,33 +1707,33 @@
         "HeadData": [],
         "CharacterMeshes": [
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 58241515,
                 "MeshId": 58241278,
-                "BaseTextureId": 58241515,
+                "BaseTextureId": 0,
                 "BodyPart": "Torso"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 58241515,
                 "MeshId": 58241365,
-                "BaseTextureId": 58241515,
+                "BaseTextureId": 0,
                 "BodyPart": "RightArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 58241515,
                 "MeshId": 58241788,
-                "BaseTextureId": 58241515,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 58241515,
                 "MeshId": 58241402,
-                "BaseTextureId": 58241515,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftLeg"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 58241515,
                 "MeshId": 58241326,
-                "BaseTextureId": 58241515,
+                "BaseTextureId": 0,
                 "BodyPart": "RightLeg"
             }
         ],
@@ -1747,33 +1747,33 @@
         "HeadData": [],
         "CharacterMeshes": [
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 58885235,
                 "MeshId": 58882681,
-                "BaseTextureId": 58885235,
+                "BaseTextureId": 0,
                 "BodyPart": "Torso"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 58885235,
                 "MeshId": 58882795,
-                "BaseTextureId": 58885235,
+                "BaseTextureId": 0,
                 "BodyPart": "RightArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 58885235,
                 "MeshId": 58884833,
-                "BaseTextureId": 58885235,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 58885235,
                 "MeshId": 58883817,
-                "BaseTextureId": 58885235,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftLeg"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 58885235,
                 "MeshId": 58882708,
-                "BaseTextureId": 58885235,
+                "BaseTextureId": 0,
                 "BodyPart": "RightLeg"
             }
         ],
@@ -1787,33 +1787,33 @@
         "HeadData": [],
         "CharacterMeshes": [
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 58905366,
                 "MeshId": 58901042,
-                "BaseTextureId": 58905366,
+                "BaseTextureId": 0,
                 "BodyPart": "Torso"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 58905366,
                 "MeshId": 58901125,
-                "BaseTextureId": 58905366,
+                "BaseTextureId": 0,
                 "BodyPart": "RightArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 58905366,
                 "MeshId": 58901186,
-                "BaseTextureId": 58905366,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 58905366,
                 "MeshId": 58901154,
-                "BaseTextureId": 58905366,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftLeg"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 58905366,
                 "MeshId": 58901086,
-                "BaseTextureId": 58905366,
+                "BaseTextureId": 0,
                 "BodyPart": "RightLeg"
             }
         ],
@@ -1827,33 +1827,33 @@
         "HeadData": [],
         "CharacterMeshes": [
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 63197890,
                 "MeshId": 63196992,
-                "BaseTextureId": 63197890,
+                "BaseTextureId": 0,
                 "BodyPart": "Torso"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 63197890,
                 "MeshId": 63197097,
-                "BaseTextureId": 63197890,
+                "BaseTextureId": 0,
                 "BodyPart": "RightArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 63197890,
                 "MeshId": 63197137,
-                "BaseTextureId": 63197890,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 63197890,
                 "MeshId": 63197111,
-                "BaseTextureId": 63197890,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftLeg"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 63197890,
                 "MeshId": 63197069,
-                "BaseTextureId": 63197890,
+                "BaseTextureId": 0,
                 "BodyPart": "RightLeg"
             }
         ],
@@ -1867,33 +1867,33 @@
         "HeadData": [],
         "CharacterMeshes": [
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 63200149,
                 "MeshId": 63200025,
-                "BaseTextureId": 63200149,
+                "BaseTextureId": 0,
                 "BodyPart": "Torso"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 63200149,
                 "MeshId": 63199968,
-                "BaseTextureId": 63200149,
+                "BaseTextureId": 0,
                 "BodyPart": "RightArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 63200149,
                 "MeshId": 63199871,
-                "BaseTextureId": 63200149,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 63200149,
                 "MeshId": 63199903,
-                "BaseTextureId": 63200149,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftLeg"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 63200149,
                 "MeshId": 63199995,
-                "BaseTextureId": 63200149,
+                "BaseTextureId": 0,
                 "BodyPart": "RightLeg"
             }
         ],
@@ -1907,33 +1907,33 @@
         "HeadData": [],
         "CharacterMeshes": [
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 63259259,
                 "MeshId": 63200025,
-                "BaseTextureId": 63259259,
+                "BaseTextureId": 0,
                 "BodyPart": "Torso"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 63259259,
                 "MeshId": 63199968,
-                "BaseTextureId": 63259259,
+                "BaseTextureId": 0,
                 "BodyPart": "RightArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 63259259,
                 "MeshId": 63199871,
-                "BaseTextureId": 63259259,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 63259259,
                 "MeshId": 63199903,
-                "BaseTextureId": 63259259,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftLeg"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 63259259,
                 "MeshId": 63199995,
-                "BaseTextureId": 63259259,
+                "BaseTextureId": 0,
                 "BodyPart": "RightLeg"
             }
         ],
@@ -1947,33 +1947,33 @@
         "HeadData": [],
         "CharacterMeshes": [
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 63999032,
                 "MeshId": 63999153,
-                "BaseTextureId": 63999032,
+                "BaseTextureId": 0,
                 "BodyPart": "Torso"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 63999032,
                 "MeshId": 63999104,
-                "BaseTextureId": 63999032,
+                "BaseTextureId": 0,
                 "BodyPart": "RightArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 63999032,
                 "MeshId": 63999057,
-                "BaseTextureId": 63999032,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 63999032,
                 "MeshId": 63999092,
-                "BaseTextureId": 63999032,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftLeg"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 63999032,
                 "MeshId": 63999133,
-                "BaseTextureId": 63999032,
+                "BaseTextureId": 0,
                 "BodyPart": "RightLeg"
             }
         ],
@@ -1987,33 +1987,33 @@
         "HeadData": [],
         "CharacterMeshes": [
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 64000890,
                 "MeshId": 64001550,
-                "BaseTextureId": 64000890,
+                "BaseTextureId": 0,
                 "BodyPart": "Torso"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 64000890,
                 "MeshId": 64000833,
-                "BaseTextureId": 64000890,
+                "BaseTextureId": 0,
                 "BodyPart": "RightArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 64000890,
                 "MeshId": 64000815,
-                "BaseTextureId": 64000890,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 64000890,
                 "MeshId": 64000825,
-                "BaseTextureId": 64000890,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftLeg"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 64000890,
                 "MeshId": 64000841,
-                "BaseTextureId": 64000890,
+                "BaseTextureId": 0,
                 "BodyPart": "RightLeg"
             }
         ],
@@ -2027,33 +2027,33 @@
         "HeadData": [],
         "CharacterMeshes": [
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 64019533,
                 "MeshId": 64019519,
-                "BaseTextureId": 64019533,
+                "BaseTextureId": 0,
                 "BodyPart": "Torso"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 64019533,
                 "MeshId": 64019487,
-                "BaseTextureId": 64019533,
+                "BaseTextureId": 0,
                 "BodyPart": "RightArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 64019533,
                 "MeshId": 64019472,
-                "BaseTextureId": 64019533,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 64019533,
                 "MeshId": 64019478,
-                "BaseTextureId": 64019533,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftLeg"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 64019533,
                 "MeshId": 64019500,
-                "BaseTextureId": 64019533,
+                "BaseTextureId": 0,
                 "BodyPart": "RightLeg"
             }
         ],
@@ -2067,33 +2067,33 @@
         "HeadData": [],
         "CharacterMeshes": [
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 64020374,
                 "MeshId": 64020450,
-                "BaseTextureId": 64020374,
+                "BaseTextureId": 0,
                 "BodyPart": "Torso"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 64020374,
                 "MeshId": 64020424,
-                "BaseTextureId": 64020374,
+                "BaseTextureId": 0,
                 "BodyPart": "RightArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 64020374,
                 "MeshId": 64020397,
-                "BaseTextureId": 64020374,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 64020374,
                 "MeshId": 64020404,
-                "BaseTextureId": 64020374,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftLeg"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 64020374,
                 "MeshId": 64020864,
-                "BaseTextureId": 64020374,
+                "BaseTextureId": 0,
                 "BodyPart": "RightLeg"
             }
         ],
@@ -2107,33 +2107,33 @@
         "HeadData": [],
         "CharacterMeshes": [
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 64021590,
                 "MeshId": 64021572,
-                "BaseTextureId": 64021590,
+                "BaseTextureId": 0,
                 "BodyPart": "Torso"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 64021590,
                 "MeshId": 64021558,
-                "BaseTextureId": 64021590,
+                "BaseTextureId": 0,
                 "BodyPart": "RightArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 64021590,
                 "MeshId": 64021544,
-                "BaseTextureId": 64021590,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 64021590,
                 "MeshId": 64021554,
-                "BaseTextureId": 64021590,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftLeg"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 64021590,
                 "MeshId": 64021563,
-                "BaseTextureId": 64021590,
+                "BaseTextureId": 0,
                 "BodyPart": "RightLeg"
             }
         ],
@@ -2147,33 +2147,33 @@
         "HeadData": [],
         "CharacterMeshes": [
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 64028189,
                 "MeshId": 64028284,
-                "BaseTextureId": 64028189,
+                "BaseTextureId": 0,
                 "BodyPart": "Torso"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 64028189,
                 "MeshId": 64028254,
-                "BaseTextureId": 64028189,
+                "BaseTextureId": 0,
                 "BodyPart": "RightArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 64028189,
                 "MeshId": 64028222,
-                "BaseTextureId": 64028189,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 64028189,
                 "MeshId": 64028238,
-                "BaseTextureId": 64028189,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftLeg"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 64028189,
                 "MeshId": 64028270,
-                "BaseTextureId": 64028189,
+                "BaseTextureId": 0,
                 "BodyPart": "RightLeg"
             }
         ],
@@ -2197,33 +2197,33 @@
         "HeadData": [],
         "CharacterMeshes": [
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 64045298,
                 "MeshId": 64045442,
-                "BaseTextureId": 64045298,
+                "BaseTextureId": 0,
                 "BodyPart": "Torso"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 64045298,
                 "MeshId": 64045388,
-                "BaseTextureId": 64045298,
+                "BaseTextureId": 0,
                 "BodyPart": "RightArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 64045298,
                 "MeshId": 64045326,
-                "BaseTextureId": 64045298,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 64045298,
                 "MeshId": 64045357,
-                "BaseTextureId": 64045298,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftLeg"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 64045298,
                 "MeshId": 64045422,
-                "BaseTextureId": 64045298,
+                "BaseTextureId": 0,
                 "BodyPart": "RightLeg"
             }
         ],
@@ -2237,33 +2237,33 @@
         "HeadData": [],
         "CharacterMeshes": [
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 64562913,
                 "MeshId": 64567041,
-                "BaseTextureId": 64562913,
+                "BaseTextureId": 0,
                 "BodyPart": "Torso"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 64562913,
                 "MeshId": 64563108,
-                "BaseTextureId": 64562913,
+                "BaseTextureId": 0,
                 "BodyPart": "RightArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 64562913,
                 "MeshId": 64562981,
-                "BaseTextureId": 64562913,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 64562913,
                 "MeshId": 64563087,
-                "BaseTextureId": 64562913,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftLeg"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 64562913,
                 "MeshId": 64563131,
-                "BaseTextureId": 64562913,
+                "BaseTextureId": 0,
                 "BodyPart": "RightLeg"
             }
         ],
@@ -2277,33 +2277,33 @@
         "HeadData": [],
         "CharacterMeshes": [
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 64569302,
                 "MeshId": 64569277,
-                "BaseTextureId": 64569302,
+                "BaseTextureId": 0,
                 "BodyPart": "Torso"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 64569302,
                 "MeshId": 64569250,
-                "BaseTextureId": 64569302,
+                "BaseTextureId": 0,
                 "BodyPart": "RightArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 64569302,
                 "MeshId": 64569225,
-                "BaseTextureId": 64569302,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 64569302,
                 "MeshId": 64569239,
-                "BaseTextureId": 64569302,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftLeg"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 64569302,
                 "MeshId": 64569264,
-                "BaseTextureId": 64569302,
+                "BaseTextureId": 0,
                 "BodyPart": "RightLeg"
             }
         ],
@@ -2317,33 +2317,33 @@
         "HeadData": [],
         "CharacterMeshes": [
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 65047435,
                 "MeshId": 65048700,
-                "BaseTextureId": 65047435,
+                "BaseTextureId": 0,
                 "BodyPart": "Torso"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 65047435,
                 "MeshId": 65048720,
-                "BaseTextureId": 65047435,
+                "BaseTextureId": 0,
                 "BodyPart": "RightArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 65047435,
                 "MeshId": 65048750,
-                "BaseTextureId": 65047435,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 65047435,
                 "MeshId": 65048737,
-                "BaseTextureId": 65047435,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftLeg"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 65047435,
                 "MeshId": 65048713,
-                "BaseTextureId": 65047435,
+                "BaseTextureId": 0,
                 "BodyPart": "RightLeg"
             }
         ],
@@ -2357,33 +2357,33 @@
         "HeadData": [],
         "CharacterMeshes": [
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 66783739,
                 "MeshId": 66783807,
-                "BaseTextureId": 66783739,
+                "BaseTextureId": 0,
                 "BodyPart": "Torso"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 66783739,
                 "MeshId": 66783783,
-                "BaseTextureId": 66783739,
+                "BaseTextureId": 0,
                 "BodyPart": "RightArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 66783739,
                 "MeshId": 66783760,
-                "BaseTextureId": 66783739,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 66783739,
                 "MeshId": 66783773,
-                "BaseTextureId": 66783739,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftLeg"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 66783739,
                 "MeshId": 66783794,
-                "BaseTextureId": 66783739,
+                "BaseTextureId": 0,
                 "BodyPart": "RightLeg"
             }
         ],
@@ -2397,33 +2397,33 @@
         "HeadData": [],
         "CharacterMeshes": [
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 67641072,
                 "MeshId": 67641202,
-                "BaseTextureId": 67641072,
+                "BaseTextureId": 0,
                 "BodyPart": "Torso"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 67641072,
                 "MeshId": 67641132,
-                "BaseTextureId": 67641072,
+                "BaseTextureId": 0,
                 "BodyPart": "RightArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 67641072,
                 "MeshId": 67641096,
-                "BaseTextureId": 67641072,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 67641072,
                 "MeshId": 67641107,
-                "BaseTextureId": 67641072,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftLeg"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 67641072,
                 "MeshId": 67641182,
-                "BaseTextureId": 67641072,
+                "BaseTextureId": 0,
                 "BodyPart": "RightLeg"
             }
         ],
@@ -2437,33 +2437,33 @@
         "HeadData": [],
         "CharacterMeshes": [
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 68262346,
                 "MeshId": 68264640,
-                "BaseTextureId": 68262346,
+                "BaseTextureId": 0,
                 "BodyPart": "Torso"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 68262346,
                 "MeshId": 68264123,
-                "BaseTextureId": 68262346,
+                "BaseTextureId": 0,
                 "BodyPart": "RightArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 68262346,
                 "MeshId": 68264101,
-                "BaseTextureId": 68262346,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 68262346,
                 "MeshId": 68264107,
-                "BaseTextureId": 68262346,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftLeg"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 68262346,
                 "MeshId": 68264135,
-                "BaseTextureId": 68262346,
+                "BaseTextureId": 0,
                 "BodyPart": "RightLeg"
             }
         ],
@@ -2477,33 +2477,33 @@
         "HeadData": [],
         "CharacterMeshes": [
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 69901097,
                 "MeshId": 69901183,
-                "BaseTextureId": 69901097,
+                "BaseTextureId": 0,
                 "BodyPart": "Torso"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 69901097,
                 "MeshId": 69901149,
-                "BaseTextureId": 69901097,
+                "BaseTextureId": 0,
                 "BodyPart": "RightArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 69901097,
                 "MeshId": 69901118,
-                "BaseTextureId": 69901097,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 69901097,
                 "MeshId": 69901130,
-                "BaseTextureId": 69901097,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftLeg"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 69901097,
                 "MeshId": 69901158,
-                "BaseTextureId": 69901097,
+                "BaseTextureId": 0,
                 "BodyPart": "RightLeg"
             }
         ],
@@ -2517,33 +2517,33 @@
         "HeadData": [],
         "CharacterMeshes": [
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 74169564,
                 "MeshId": 73031989,
-                "BaseTextureId": 74169564,
+                "BaseTextureId": 0,
                 "BodyPart": "Torso"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 74169564,
                 "MeshId": 75390843,
-                "BaseTextureId": 74169564,
+                "BaseTextureId": 0,
                 "BodyPart": "RightArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 74169564,
                 "MeshId": 75390829,
-                "BaseTextureId": 74169564,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 74169564,
                 "MeshId": 73032037,
-                "BaseTextureId": 74169564,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftLeg"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 74169564,
                 "MeshId": 73032069,
-                "BaseTextureId": 74169564,
+                "BaseTextureId": 0,
                 "BodyPart": "RightLeg"
             }
         ],
@@ -2557,33 +2557,33 @@
         "HeadData": [],
         "CharacterMeshes": [
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 73032561,
                 "MeshId": 73032490,
-                "BaseTextureId": 73032561,
+                "BaseTextureId": 0,
                 "BodyPart": "Torso"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 73032561,
                 "MeshId": 75390843,
-                "BaseTextureId": 73032561,
+                "BaseTextureId": 0,
                 "BodyPart": "RightArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 73032561,
                 "MeshId": 75390829,
-                "BaseTextureId": 73032561,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 73032561,
                 "MeshId": 73032675,
-                "BaseTextureId": 73032561,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftLeg"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 73032561,
                 "MeshId": 73032716,
-                "BaseTextureId": 73032561,
+                "BaseTextureId": 0,
                 "BodyPart": "RightLeg"
             }
         ],
@@ -2597,33 +2597,33 @@
         "HeadData": [],
         "CharacterMeshes": [
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 76124206,
                 "MeshId": 76124336,
-                "BaseTextureId": 76124206,
+                "BaseTextureId": 0,
                 "BodyPart": "Torso"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 76124206,
                 "MeshId": 76124314,
-                "BaseTextureId": 76124206,
+                "BaseTextureId": 0,
                 "BodyPart": "RightArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 76124206,
                 "MeshId": 76124290,
-                "BaseTextureId": 76124206,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 76124206,
                 "MeshId": 76124301,
-                "BaseTextureId": 76124206,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftLeg"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 76124206,
                 "MeshId": 76124317,
-                "BaseTextureId": 76124206,
+                "BaseTextureId": 0,
                 "BodyPart": "RightLeg"
             }
         ],
@@ -2643,33 +2643,33 @@
         ],
         "CharacterMeshes": [
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 77794506,
                 "MeshId": 77794540,
-                "BaseTextureId": 77794506,
+                "BaseTextureId": 0,
                 "BodyPart": "Torso"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 77794506,
                 "MeshId": 77794524,
-                "BaseTextureId": 77794506,
+                "BaseTextureId": 0,
                 "BodyPart": "RightArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 77794506,
                 "MeshId": 77794511,
-                "BaseTextureId": 77794506,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 77794506,
                 "MeshId": 77794517,
-                "BaseTextureId": 77794506,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftLeg"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 77794506,
                 "MeshId": 77794533,
-                "BaseTextureId": 77794506,
+                "BaseTextureId": 0,
                 "BodyPart": "RightLeg"
             }
         ],
@@ -2699,33 +2699,33 @@
         ],
         "CharacterMeshes": [
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 77803845,
                 "MeshId": 77802553,
-                "BaseTextureId": 77803845,
+                "BaseTextureId": 0,
                 "BodyPart": "Torso"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 77803845,
                 "MeshId": 77802523,
-                "BaseTextureId": 77803845,
+                "BaseTextureId": 0,
                 "BodyPart": "RightArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 77803845,
                 "MeshId": 77802474,
-                "BaseTextureId": 77803845,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 77803845,
                 "MeshId": 77802502,
-                "BaseTextureId": 77803845,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftLeg"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 77803845,
                 "MeshId": 77802534,
-                "BaseTextureId": 77803845,
+                "BaseTextureId": 0,
                 "BodyPart": "RightLeg"
             }
         ],
@@ -2755,33 +2755,33 @@
         ],
         "CharacterMeshes": [
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 77875159,
                 "MeshId": 77875404,
-                "BaseTextureId": 77875159,
+                "BaseTextureId": 0,
                 "BodyPart": "Torso"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 77875159,
                 "MeshId": 77875287,
-                "BaseTextureId": 77875159,
+                "BaseTextureId": 0,
                 "BodyPart": "RightArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 77875159,
                 "MeshId": 77875242,
-                "BaseTextureId": 77875159,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 77875159,
                 "MeshId": 77875264,
-                "BaseTextureId": 77875159,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftLeg"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 77875159,
                 "MeshId": 77875374,
-                "BaseTextureId": 77875159,
+                "BaseTextureId": 0,
                 "BodyPart": "RightLeg"
             }
         ],
@@ -2795,33 +2795,33 @@
         "HeadData": [],
         "CharacterMeshes": [
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 90217236,
                 "MeshId": 90222607,
-                "BaseTextureId": 90217236,
+                "BaseTextureId": 0,
                 "BodyPart": "Torso"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 90217236,
                 "MeshId": 90222638,
-                "BaseTextureId": 90217236,
+                "BaseTextureId": 0,
                 "BodyPart": "RightArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 90217236,
                 "MeshId": 90222766,
-                "BaseTextureId": 90217236,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 90217236,
                 "MeshId": 90222737,
-                "BaseTextureId": 90217236,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftLeg"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 90217236,
                 "MeshId": 90222561,
-                "BaseTextureId": 90217236,
+                "BaseTextureId": 0,
                 "BodyPart": "RightLeg"
             }
         ],
@@ -2835,33 +2835,33 @@
         "HeadData": [],
         "CharacterMeshes": [
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 101857437,
                 "MeshId": 101857766,
-                "BaseTextureId": 101857437,
+                "BaseTextureId": 0,
                 "BodyPart": "Torso"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 101857437,
                 "MeshId": 101857673,
-                "BaseTextureId": 101857437,
+                "BaseTextureId": 0,
                 "BodyPart": "RightArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 101857437,
                 "MeshId": 101857574,
-                "BaseTextureId": 101857437,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 101857437,
                 "MeshId": 101857621,
-                "BaseTextureId": 101857437,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftLeg"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 101857437,
                 "MeshId": 101857717,
-                "BaseTextureId": 101857437,
+                "BaseTextureId": 0,
                 "BodyPart": "RightLeg"
             }
         ],
@@ -2875,33 +2875,33 @@
         "HeadData": [],
         "CharacterMeshes": [
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 284115656,
                 "MeshId": 284121061,
-                "BaseTextureId": 284115656,
+                "BaseTextureId": 0,
                 "BodyPart": "Torso"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 284115656,
                 "MeshId": 284121207,
-                "BaseTextureId": 284115656,
+                "BaseTextureId": 0,
                 "BodyPart": "RightArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 284115656,
                 "MeshId": 284121361,
-                "BaseTextureId": 284115656,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 284115656,
                 "MeshId": 284121280,
-                "BaseTextureId": 284115656,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftLeg"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 284115656,
                 "MeshId": 284121149,
-                "BaseTextureId": 284115656,
+                "BaseTextureId": 0,
                 "BodyPart": "RightLeg"
             }
         ],
@@ -2931,33 +2931,33 @@
         ],
         "CharacterMeshes": [
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 273436850,
                 "MeshId": 273436679,
-                "BaseTextureId": 273436850,
+                "BaseTextureId": 0,
                 "BodyPart": "Torso"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 273436850,
                 "MeshId": 273436565,
-                "BaseTextureId": 273436850,
+                "BaseTextureId": 0,
                 "BodyPart": "RightArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 273436850,
                 "MeshId": 273436328,
-                "BaseTextureId": 273436850,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 273436850,
                 "MeshId": 273436457,
-                "BaseTextureId": 273436850,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftLeg"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 273436850,
                 "MeshId": 273436628,
-                "BaseTextureId": 273436850,
+                "BaseTextureId": 0,
                 "BodyPart": "RightLeg"
             }
         ],
@@ -2971,33 +2971,33 @@
         "HeadData": [],
         "CharacterMeshes": [
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 276459048,
                 "MeshId": 276459127,
-                "BaseTextureId": 276459048,
+                "BaseTextureId": 0,
                 "BodyPart": "Torso"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 276459048,
                 "MeshId": 276459221,
-                "BaseTextureId": 276459048,
+                "BaseTextureId": 0,
                 "BodyPart": "RightArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 276459048,
                 "MeshId": 276459293,
-                "BaseTextureId": 276459048,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 276459048,
                 "MeshId": 276459262,
-                "BaseTextureId": 276459048,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftLeg"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 276459048,
                 "MeshId": 276459183,
-                "BaseTextureId": 276459048,
+                "BaseTextureId": 0,
                 "BodyPart": "RightLeg"
             }
         ],
@@ -3016,33 +3016,33 @@
         ],
         "CharacterMeshes": [
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 276470468,
                 "MeshId": 276469613,
-                "BaseTextureId": 276470468,
+                "BaseTextureId": 0,
                 "BodyPart": "Torso"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 276470468,
                 "MeshId": 276470222,
-                "BaseTextureId": 276470468,
+                "BaseTextureId": 0,
                 "BodyPart": "RightArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 276470468,
                 "MeshId": 276470310,
-                "BaseTextureId": 276470468,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 276470468,
                 "MeshId": 276470073,
-                "BaseTextureId": 276470468,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftLeg"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 276470468,
                 "MeshId": 276469724,
-                "BaseTextureId": 276470468,
+                "BaseTextureId": 0,
                 "BodyPart": "RightLeg"
             }
         ],
@@ -3056,33 +3056,33 @@
         "HeadData": [],
         "CharacterMeshes": [
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 273036266,
                 "MeshId": 273036493,
-                "BaseTextureId": 273036266,
+                "BaseTextureId": 0,
                 "BodyPart": "Torso"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 273036266,
                 "MeshId": 273036633,
-                "BaseTextureId": 273036266,
+                "BaseTextureId": 0,
                 "BodyPart": "RightArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 273036266,
                 "MeshId": 273036672,
-                "BaseTextureId": 273036266,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftArm"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 273036266,
                 "MeshId": 273036709,
-                "BaseTextureId": 273036266,
+                "BaseTextureId": 0,
                 "BodyPart": "LeftLeg"
             },
             {
-                "OverlayTextureId": 0,
+                "OverlayTextureId": 273036266,
                 "MeshId": 273036572,
-                "BaseTextureId": 273036266,
+                "BaseTextureId": 0,
                 "BodyPart": "RightLeg"
             }
         ],
