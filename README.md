@@ -1,22 +1,4 @@
-Repository to store blocky roblox packages in R6 format.
+Repository currently contains some mesh data of roblox packages. Due to the project being incomplete there will be no use guide yet.
+Once most/all scripts are in order to be used automatically a user guide will be written.
 
-Mostly made to use by myself, i wanted to have obj copies of these packages before anything could happen to these files.
-
-Contains 2 Roblox Studio plugins and one Python script to be used with one of the plugins.
-
-How to use:
-
-Set the export paths in the scripts
-
-Use the LoadBundles plugin in Roblox Studio to load every bundle into the scene.
-This will also create modulescripts containing a json of all the related data to download and reference the parts directly from the Roblox site.
-
-If you want to export to OBJ from studio:
-Move the Bundles folder to ServerStorage and run the python script (python and lua script need the same export path)
-Run the Export Bundles script, which will prompt you to save to obj every couple seconds to the export path.
-
-TODO:
-
-Download all textures and meshes of each individual part that makes up a bundle.
-Have a tool combine each body part and accessory into a properly merged mesh, with functioning UVs and textures (not merged texture atlas like Studio Export)
-Update json to include accessory special mesh size.
+As of now there are a few local plugins available to use in Roblox Studio and incomplete python scripts for proper mesh conversion
