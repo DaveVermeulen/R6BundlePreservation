@@ -10,22 +10,29 @@ asset_delivery_url = "https://assetdelivery.roblox.com/v1/asset/?id="
 json_path = "./BundleList.json"
    
 def handle_asset(tex_dir, tex_id, mesh_dir: Optional[str] = None, mesh_id: Optional[int] = None):
-    mesh_skipped = False
-    tex_skipped = False    
-    if not tex_dir or not tex_id:
-        return print("Texture path or id missing!")
+    skip_mesh = False
+    skip_tex = False
+    print(tex_dir)
+    print(tex_id)    
+    if not tex_dir:
+        return print("Texture path missing!")
     
-    # Get texture from asset delivery and save to disk
-    texture_file_location = os.path.join(tex_dir + "\\" + str(tex_id) + ".png")
-    if not os.path.isfile(texture_file_location): # if file already exists, don't overwrite
-        texture_binary = requests.get(asset_delivery_url + str(tex_id)).content
-        with open(texture_file_location, 'wb') as texture_data:
-            texture_data.write(texture_binary)
+    texture_file_location = ""
+    # Exception for when there is no texture id -- feels very hacky, surely there is a better way
+    if not tex_id == 0:
+        # Get texture from asset delivery and save to disk
+        texture_file_location = os.path.join(tex_dir + "\\" + str(tex_id) + ".png")
+        if not os.path.isfile(texture_file_location): # if file already exists, don't overwrite
+            texture_binary = requests.get(asset_delivery_url + str(tex_id)).content
+            with open(texture_file_location, 'wb') as texture_data:
+                texture_data.write(texture_binary)
+        else:
+            skip_tex = True
     else:
-        tex_skipped = True
-    
+        skip_tex = True
+        
     if not mesh_dir or not mesh_id:
-        mesh_skipped = True
+        skip_mesh = True
         return print("Mesh path or id missing, skipping.")
     
     # Get mesh from asset delivery and save to disk
@@ -41,9 +48,9 @@ def handle_asset(tex_dir, tex_id, mesh_dir: Optional[str] = None, mesh_id: Optio
         mesh = mesh_to_obj.RobloxMeshParser.parse(read_mesh_data)
         mesh_to_obj.mesh_to_obj(mesh, (mesh_dir + "/" + str(mesh_id) + ".obj" ), texture_file_location)
     else: 
-        mesh_skipped = True
+        skip_mesh = True
         
-    if not mesh_skipped and not tex_skipped:
+    if not (skip_mesh and skip_tex):
         # Avoid rate limits in loops
         time.sleep(1)
         
@@ -80,7 +87,7 @@ def handle_bundle_data(bundle_data):
         
         handle_asset(
             texture_dir, 
-            body_part['BaseTextureId'], 
+            body_part['OverlayTextureId'], 
             body_part_dir, 
             body_part['MeshId']
             )
