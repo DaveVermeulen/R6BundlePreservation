@@ -3,21 +3,15 @@ import json
 import os
 import mesh_to_obj
 import time
+import glob
 from typing import Optional
 
 asset_delivery_url = "https://assetdelivery.roblox.com/v1/asset/?id="
-json_path = "./BundleListCanceled.json"
-
-# TODO: Move to handle_bundle_data, and get either bundle id or the name of the bundle to find the correct directory
-current_directory = os.getcwd()
-final_directory = os.path.join(current_directory, r'new_folder')
-if not os.path.exists(final_directory):
-   os.makedirs(final_directory)
+json_path = "./BundleList.json"
    
 def handle_asset(tex_dir, tex_id, mesh_dir: Optional[str] = None, mesh_id: Optional[int] = None):
-    # Avoid rate limits in loops
-    time.sleep(1)
-    
+    mesh_skipped = False
+    tex_skipped = False    
     if not tex_dir or not tex_id:
         return print("Texture path or id missing!")
     
@@ -27,8 +21,11 @@ def handle_asset(tex_dir, tex_id, mesh_dir: Optional[str] = None, mesh_id: Optio
         texture_binary = requests.get(asset_delivery_url + str(tex_id)).content
         with open(texture_file_location, 'wb') as texture_data:
             texture_data.write(texture_binary)
+    else:
+        tex_skipped = True
     
     if not mesh_dir or not mesh_id:
+        mesh_skipped = True
         return print("Mesh path or id missing, skipping.")
     
     # Get mesh from asset delivery and save to disk
@@ -43,24 +40,34 @@ def handle_asset(tex_dir, tex_id, mesh_dir: Optional[str] = None, mesh_id: Optio
             read_mesh_data = f.read()
         mesh = mesh_to_obj.RobloxMeshParser.parse(read_mesh_data)
         mesh_to_obj.mesh_to_obj(mesh, (mesh_dir + "/" + str(mesh_id) + ".obj" ), texture_file_location)
+    else: 
+        mesh_skipped = True
+        
+    if not mesh_skipped and not tex_skipped:
+        # Avoid rate limits in loops
+        time.sleep(1)
         
 def asset_id_to_id(asset_id: str):
     return int(asset_id.split("//").pop())
 
 def handle_bundle_data(bundle_data):
     base_dir = os.getcwd()
-    canceled_bundle = False
-        
-    # find the right dir based on bundle name or id
-    # Generally means if it has an ID it's an existing bundle, and if not it's a canceled bundle. 
-    # The difference is important as RBXM files are impossible to download straight from the site.
+    
+    # Check to see if its a Marketplace or Canceled bundle
+    # Then sets the path to the bundle folder
     if "Id" in bundle_data:
         print("Marketplace Bundle")
-        base_dir = final_directory
+        market_bundle_dir = os.path.join(base_dir, r'Bundles')
+        bundle_id_string = "bundle_" + str(bundle_data["Id"]).zfill(3)
+        bundle_dir = glob.glob(os.path.join(market_bundle_dir, bundle_id_string) + "*")[0]
+        base_dir = bundle_dir
     else:
         print("Canceled Bundle")
-        base_dir = final_directory
+        canceled_bundle_dir = os.path.join(base_dir, r'CanceledBundles')
+        bundle_dir = os.path.join(canceled_bundle_dir, bundle_data["Name"])
+        base_dir = bundle_dir
     
+    # Set path to textures folder, creates if it does not exist yet
     texture_dir = os.path.join(base_dir, r'Textures')
     if not os.path.exists(texture_dir):
         os.makedirs(texture_dir)
@@ -115,10 +122,10 @@ def handle_bundle_data(bundle_data):
     #TODO:
     # Download RBXMs from Items when its a regular bundle 'GeneratedRXBMs'
 
-with open(json_path, 'r') as file:
+with open(json_path, 'r', encoding='utf8') as file:
     data = json.load(file)
     
-handle_bundle_data(data[73])
+handle_bundle_data(data[0])
 
 # for bundle in data:
 #     handle_bundle_data(bundle)
