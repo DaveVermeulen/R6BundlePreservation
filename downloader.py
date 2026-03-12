@@ -7,13 +7,11 @@ import glob
 from typing import Optional
 
 asset_delivery_url = "https://assetdelivery.roblox.com/v1/asset/?id="
-json_path = "./BundleList.json"
+json_path = "./BundleListCanceled.json"
    
 def handle_asset(tex_dir, tex_id, mesh_dir: Optional[str] = None, mesh_id: Optional[int] = None):
     skip_mesh = False
     skip_tex = False
-    print(tex_dir)
-    print(tex_id)    
     if not tex_dir:
         return print("Texture path missing!")
     
@@ -52,10 +50,12 @@ def handle_asset(tex_dir, tex_id, mesh_dir: Optional[str] = None, mesh_id: Optio
         
     if not (skip_mesh and skip_tex):
         # Avoid rate limits in loops
-        time.sleep(1)
+        time.sleep(2)
         
 def asset_id_to_id(asset_id: str):
-    return int(asset_id.split("//").pop())
+    return_id = asset_id.split("//").pop()
+    return_id = return_id.split("id=").pop()
+    return int(return_id)
 
 def handle_bundle_data(bundle_data):
     base_dir = os.getcwd()
@@ -91,6 +91,7 @@ def handle_bundle_data(bundle_data):
             body_part_dir, 
             body_part['MeshId']
             )
+        print(body_part_dir)
         
     # Handle accessories
     for accessory in bundle_data["Accessories"]:
@@ -103,7 +104,8 @@ def handle_bundle_data(bundle_data):
             asset_id_to_id(accessory['TextureId']), 
             accessory_dir, 
             asset_id_to_id(accessory['MeshId'])
-            )    
+            ) 
+        print(accessory_dir)   
     
     # Handle head meshes and face textures (if present) 'Head'
     if ("HeadData" in bundle_data) and (len(bundle_data["HeadData"]) > 0):
@@ -119,12 +121,14 @@ def handle_bundle_data(bundle_data):
                     head_dir,
                     asset_id_to_id(head_data["MeshId"])
                     )
+                print(head_dir)  
                 
             elif head_data["BodyPart"] == "Face":
                 handle_asset(
                     texture_dir, 
                     asset_id_to_id(head_data["TextureId"])
                     )
+                print(texture_dir) 
     
     #TODO:
     # Download RBXMs from Items when its a regular bundle 'GeneratedRXBMs'
@@ -132,10 +136,10 @@ def handle_bundle_data(bundle_data):
 with open(json_path, 'r', encoding='utf8') as file:
     data = json.load(file)
     
-handle_bundle_data(data[0])
+# handle_bundle_data(data[0])
 
-# for bundle in data:
-#     handle_bundle_data(bundle)
+for bundle in data:
+    handle_bundle_data(bundle)
 
 # # Checks if the content of the response is a PNG
 # file_type = ""
