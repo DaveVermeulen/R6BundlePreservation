@@ -7,7 +7,7 @@ import glob
 from typing import Optional
 
 asset_delivery_url = "https://assetdelivery.roblox.com/v1/asset/?id="
-json_path = "./BundleListCanceled.json"
+json_path = "./BundleList.json"
    
 def handle_asset(tex_dir, tex_id, mesh_dir: Optional[str] = None, mesh_id: Optional[int] = None):
     skip_mesh = False

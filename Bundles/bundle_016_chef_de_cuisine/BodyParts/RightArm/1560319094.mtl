@@ -1,0 +1,10 @@
+# Material file created by Roblox Mesh Converter
+
+newmtl Material
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+Ns 10.000
+d 1.0
+illum 2
+map_Kd D:\Projects\Roblox\RobloxAssetPreservation\Bundles\bundle_016_chef_de_cuisine\Textures\1560306735.png
